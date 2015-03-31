@@ -4,12 +4,6 @@ killrvideo-sample-schema
 Sample schema for Apache Cassandra 2.1, to demonstrate the usage and features of CQL. 
 The schema has been extended to include functionality needed to demonstrate concepts in DataStax training courses.
 
-To run
-
-cqlsh -f videodb-schema.cql (Not completed yet)
-
-cqlsh -f videodb-inserts.cql (Not completed yet)
-
 Application
 ===========
 
@@ -32,26 +26,7 @@ For the extended schema, we also support:
  - Lookup of movie trailer videos by genre
 
 
-
-Description of tables
-=====================
-
-users - Simple static entity table to store data about a person. Uses a List collection to store more than one email per person.
-
-videos - A static table to store metadata about an uploaded video. Each video has an owner and the username is stored to reference back. A Map collection is used store the location of the video files. This could be used to store various geographic locations if a CDN was in use. Tags are a Set collection and consist of one word descriptions of the video.
-
-username_video_index - A one-to-many example linking users to videos. The lookup is based on username and optionally upload_date and videoid. Videoid is added to allow for more than one video with the same name. The clause "WITH CLUSTERING ORDER BY (upload_date DESC)" has been added to reverse sort the order that videos are stored based on date. Video records for each user will be stored from the latest uploaded to the oldest.
-
-video_rating - Example of a counter table. rating_counter stores how many times the video was rated. rating_total is the cumulative count of rating points per video. The application can then take rating_total and divide by rating_count for the average rating.
-
-tag_index - Index table to create a lookup of videos based on a unique tag. Tags are added to each video, but each tag may have multiple videos. This table allows that kind of lookup.
-
-comments_by_video and comments_by_user - Two tables that create two separate, but related, one-to-many relationship between users and comments on videos. Each video has many comments. Each user has many comments. "WITH CLUSTERING ORDER BY" clause is used on each table to keep the latest comments at the beginning of the storage row.
-
-video_event - Example of a time series data model where there can be an unknown amount of records. This example stores each video playback event (START, STOP) with the video timestamp for player advancement and the time of the actual event. From this table we canb derrive where the user left off with the video and where to star tthem again. We can also determine if users are watching an entire video or how many times they viewd a particular video.
-
-
-Description of queries
+List of queries
 ======================
 
 Original
@@ -67,8 +42,8 @@ Q9: Find ratings by videoid
 
 
 Extended
-Q1: Find movie by title and year
-Q2: Find movie by videoid
-Q3: Find movie by actor
-Q4: Find movie by director
-Q5: Find movie by genre
+Q10: Find movie by title and year
+Q11: Find movie by videoid
+Q12: Find movie by actor (latest first)
+Q13: Find movie by director (latest first)
+Q14: Find movie by genre (latest first)
