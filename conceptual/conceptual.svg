@@ -7,20 +7,22 @@
 	<v:documentProperties v:langID="1033" v:viewMarkup="false">
 		<v:userDefs>
 			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(0):26"/>
+			<v:ud v:nameU="visV14CFF" v:prompt="" v:val="VT0(1):26"/>
+			<v:ud v:nameU="visFlowchartType" v:prompt="" v:val="VT4(CrossFunctional)"/>
 		</v:userDefs>
 	</v:documentProperties>
 
 	<style type="text/css">
 	<![CDATA[
-		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
-		.st2 {fill:#000000;font-family:Calibri;font-size:0.666664em}
-		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:Calibri;font-size:0.666664em}
 		.st4 {font-size:1em;text-decoration:underline}
-		.st5 {fill:#ffffff;stroke:#000000;stroke-dasharray:1.68,1.2;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
-		.st6 {fill:#ffffff;stroke:#000000;stroke-dasharray:1.75,1.25;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
-		.st7 {fill:#e8eef7;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
-		.st8 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
-		.st9 {font-size:1em}
+		.st5 {font-size:1em}
+		.st6 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st7 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {fill:#e8eef7;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st9 {fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
 		.st10 {fill:none;fill-rule:evenodd;font-size:12;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
 	]]>
 	</style>
@@ -30,7 +32,34 @@
 		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="0" v:shadowOffsetX="9" v:shadowOffsetY="-9"/>
 		<v:layer v:name="Flowchart" v:index="0"/>
 		<v:layer v:name="Connector" v:index="1"/>
-		<g id="shape1-1" v:mID="1" v:groupContext="shape" v:layerMember="0" transform="translate(165.375,-459)">
+		<g id="shape148-1" v:mID="148" v:groupContext="shape" v:layerMember="0" transform="translate(515.25,-487.125)">
+			<title>Decision.148</title>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.75):0"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
+			</v:userDefs>
+			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st1"/>
+		</g>
+		<g id="shape1-3" v:mID="1" v:groupContext="shape" v:layerMember="0" transform="translate(84.9375,-487.406)">
 			<title>Process</title>
 			<desc>User</desc>
 			<v:custProps>
@@ -57,10 +86,10 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="13.5" cy="603" width="27" height="18"/>
-			<rect x="0" y="594" width="27" height="18" class="st1"/>
-			<text x="5.98" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>User</text>		</g>
-		<g id="shape2-4" v:mID="2" v:groupContext="shape" v:layerMember="0" transform="translate(221.375,-315)">
+			<v:textRect cx="27" cy="594" width="54" height="36"/>
+			<rect x="0" y="576" width="54" height="36" class="st2"/>
+			<text x="19.48" y="596.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>User</text>		</g>
+		<g id="shape2-6" v:mID="2" v:groupContext="shape" v:layerMember="0" transform="translate(199.125,-288)">
 			<title>Process.2</title>
 			<desc>Comment</desc>
 			<v:custProps>
@@ -87,10 +116,10 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="22.5" cy="603" width="45" height="18"/>
-			<rect x="0" y="594" width="45" height="18" class="st1"/>
-			<text x="6.44" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Comment</text>		</g>
-		<g id="shape3-7" v:mID="3" v:groupContext="shape" v:layerMember="0" transform="translate(452.863,-462.375)">
+			<v:textRect cx="27" cy="594" width="54" height="36"/>
+			<rect x="0" y="576" width="54" height="36" class="st2"/>
+			<text x="10.94" y="596.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Comment</text>		</g>
+		<g id="shape3-9" v:mID="3" v:groupContext="shape" v:layerMember="0" transform="translate(395,-430.969)">
 			<title>Process.3</title>
 			<desc>Video</desc>
 			<v:custProps>
@@ -117,12 +146,12 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="18" cy="603" width="36" height="18"/>
-			<rect x="0" y="594" width="36" height="18" class="st1"/>
-			<text x="8.61" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Video</text>		</g>
-		<g id="shape7-10" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(144,-360)">
+			<v:textRect cx="27" cy="594" width="54" height="36"/>
+			<rect x="0" y="576" width="54" height="36" class="st2"/>
+			<text x="17.61" y="596.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Video</text>		</g>
+		<g id="shape7-12" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(81,-350.708)">
 			<title>Decision</title>
-			<desc>posts</desc>
+			<desc>___posts___ is posted by</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -147,12 +176,13 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="22.5" cy="595.125" width="37.5" height="25.3125"/>
-			<path d="M0 595.12 L22.5 578.25 L45 595.12 L22.5 612 L0 595.12 Z" class="st1"/>
-			<text x="13.82" y="597.52" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>posts</text>		</g>
-		<g id="shape8-13" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(303,-458.438)">
+			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
+			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
+			<text x="15.37" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">posts</tspan>___<v:newlineChar/><tspan
+						x="16.59" dy="1.2em" class="st5">is posted by</tspan></text>		</g>
+		<g id="shape8-17" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(234,-441.833)">
 			<title>Decision.8</title>
-			<desc>rates</desc>
+			<desc>___rates___ Is rated by</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -177,12 +207,13 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="21.75" cy="595.688" width="36.25" height="24.4688"/>
-			<path d="M0 595.69 L21.75 579.37 L43.5 595.69 L21.75 612 L0 595.69 Z" class="st1"/>
-			<text x="13.55" y="598.09" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>rates</text>		</g>
-		<g id="shape9-16" v:mID="9" v:groupContext="shape" v:layerMember="0" transform="translate(360,-349.875)">
+			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
+			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
+			<text x="15.84" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">rates</tspan>___<v:newlineChar/><tspan
+						x="18.96" dy="1.2em" class="st5">Is rated by</tspan></text>		</g>
+		<g id="shape9-22" v:mID="9" v:groupContext="shape" v:layerMember="0" transform="translate(306,-330.75)">
 			<title>Decision.9</title>
-			<desc>features</desc>
+			<desc>___features___ Is featured in</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -207,12 +238,13 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="22.5" cy="595.125" width="37.5" height="25.3125"/>
-			<path d="M0 595.12 L22.5 578.25 L45 595.12 L22.5 612 L0 595.12 Z" class="st1"/>
-			<text x="8.98" y="597.52" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>features</text>		</g>
-		<g id="shape10-19" v:mID="10" v:groupContext="shape" v:layerMember="0" transform="translate(303.75,-495.833)">
+			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
+			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
+			<text x="10.53" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">features</tspan>___<v:newlineChar/><tspan
+						x="14.55" dy="1.2em" class="st5">Is featured in</tspan></text>		</g>
+		<g id="shape10-27" v:mID="10" v:groupContext="shape" v:layerMember="0" transform="translate(234,-508.5)">
 			<title>Decision.10</title>
-			<desc>uploads</desc>
+			<desc>___uploads___ Is uploaded by</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -237,30 +269,31 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="21.375" cy="595.969" width="35.63" height="24.0469"/>
-			<path d="M0 595.97 L21.37 579.94 L42.75 595.97 L21.37 612 L0 595.97 Z" class="st1"/>
-			<text x="8.56" y="598.37" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>uploads</text>		</g>
-		<g id="shape13-22" v:mID="13" v:groupContext="shape" v:layerMember="1" transform="translate(182.116,-459)">
+			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
+			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
+			<text x="11.23" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">uploads</tspan>___<v:newlineChar/><tspan
+						x="12.37" dy="1.2em" class="st5">Is uploaded by</tspan></text>		</g>
+		<g id="shape13-32" v:mID="13" v:groupContext="shape" v:layerMember="1" transform="translate(105.306,-487.406)">
 			<title>Dynamic connector</title>
-			<path d="M-4.46 612 L-13.54 678.81" class="st3"/>
+			<path d="M7.35 612 L10.65 695.48" class="st6"/>
 		</g>
-		<g id="shape14-25" v:mID="14" v:groupContext="shape" v:layerMember="1" transform="translate(178.273,-368.83)">
+		<g id="shape14-35" v:mID="14" v:groupContext="shape" v:layerMember="1" transform="translate(136.188,-365.099)">
 			<title>Dynamic connector.14</title>
-			<path d="M0 612 L52.43 647.83" class="st3"/>
+			<path d="M0 612 L62.94 653.36" class="st6"/>
 		</g>
-		<g id="shape15-28" v:mID="15" v:groupContext="shape" v:layerMember="1" transform="translate(192.375,-461.856)">
+		<g id="shape15-38" v:mID="15" v:groupContext="shape" v:layerMember="1" transform="translate(138.938,-505.406)">
 			<title>Dynamic connector.15</title>
-			<path d="M0 605.86 L112.01 600.14" class="st3"/>
+			<path d="M0 612 L104.82 641.25" class="st6"/>
 		</g>
-		<g id="shape16-31" v:mID="16" v:groupContext="shape" v:layerMember="1" transform="translate(192.375,-468)">
+		<g id="shape16-41" v:mID="16" v:groupContext="shape" v:layerMember="1" transform="translate(138.938,-505.406)">
 			<title>Dynamic connector.16</title>
-			<path d="M0 612 L111.37 568.14" class="st3"/>
+			<path d="M0 612 L95.06 581.91" class="st6"/>
 		</g>
-		<g id="shape17-34" v:mID="17" v:groupContext="shape" v:layerMember="1" transform="translate(266.375,-330.939)">
+		<g id="shape17-44" v:mID="17" v:groupContext="shape" v:layerMember="1" transform="translate(253.125,-318.058)">
 			<title>Dynamic connector.17</title>
-			<path d="M0 612 L100.18 581.11" class="st3"/>
+			<path d="M0 612 L66.31 582.39" class="st6"/>
 		</g>
-		<g id="shape21-37" v:mID="21" v:groupContext="shape" v:layerMember="0" transform="translate(76.5,-506.813)">
+		<g id="shape21-47" v:mID="21" v:groupContext="shape" v:layerMember="0" transform="translate(61.3125,-565.594)">
 			<title>Start/End</title>
 			<desc>last name</desc>
 			<v:custProps>
@@ -289,9 +322,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="4.4" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>last name</text>		</g>
-		<g id="shape22-40" v:mID="22" v:groupContext="shape" v:layerMember="0" transform="translate(45,-479.813)">
+					class="st2"/>
+			<text x="4.4" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>last name</text>		</g>
+		<g id="shape22-50" v:mID="22" v:groupContext="shape" v:layerMember="0" transform="translate(29.8125,-538.594)">
 			<title>Start/End.22</title>
 			<desc>first name</desc>
 			<v:custProps>
@@ -320,9 +353,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="3.71" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>first name</text>		</g>
-		<g id="shape23-43" v:mID="23" v:groupContext="shape" v:layerMember="0" transform="translate(105.75,-441)">
+					class="st2"/>
+			<text x="3.71" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>first name</text>		</g>
+		<g id="shape23-53" v:mID="23" v:groupContext="shape" v:layerMember="0" transform="translate(29.8125,-487.406)">
 			<title>Start/End.23</title>
 			<desc>id</desc>
 			<v:custProps>
@@ -351,9 +384,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="17.23" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st4">id</tspan></text>		</g>
-		<g id="shape24-47" v:mID="24" v:groupContext="shape" v:layerMember="0" transform="translate(131.625,-502.313)">
+					class="st2"/>
+			<text x="17.23" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st4">id</tspan></text>		</g>
+		<g id="shape24-57" v:mID="24" v:groupContext="shape" v:layerMember="0" transform="translate(29.8125,-513.552)">
 			<title>Start/End.24</title>
 			<desc>email</desc>
 			<v:custProps>
@@ -382,9 +415,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="11.31" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>email</text>		</g>
-		<g id="shape25-50" v:mID="25" v:groupContext="shape" v:layerMember="0" transform="translate(177.75,-502.313)">
+					class="st2"/>
+			<text x="11.31" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>email</text>		</g>
+		<g id="shape25-60" v:mID="25" v:groupContext="shape" v:layerMember="0" transform="translate(135.563,-539.156)">
 			<title>Start/End.25</title>
 			<desc>registration date</desc>
 			<v:custProps>
@@ -413,9 +446,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="33.1875" cy="604.406" width="66.38" height="15.1875"/>
 			<path d="M7.59 612 L58.78 612 A7.59375 7.59375 -180 0 0 58.78 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="6.07" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>registration date</text>		</g>
-		<g id="shape26-53" v:mID="26" v:groupContext="shape" v:layerMember="0" transform="translate(326.25,-532.98)">
+					class="st2"/>
+			<text x="6.07" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>registration date</text>		</g>
+		<g id="shape26-63" v:mID="26" v:groupContext="shape" v:layerMember="0" transform="translate(288,-569.813)">
 			<title>Start/End.26</title>
 			<desc>timestamp</desc>
 			<v:custProps>
@@ -444,9 +477,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="27" cy="604.406" width="54" height="15.1875"/>
 			<path d="M7.59 612 L46.41 612 A7.59375 7.59375 -180 0 0 46.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="9.44" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>timestamp</text>		</g>
-		<g id="shape27-56" v:mID="27" v:groupContext="shape" v:layerMember="0" transform="translate(276.75,-441)">
+					class="st2"/>
+			<text x="9.44" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>timestamp</text>		</g>
+		<g id="shape27-66" v:mID="27" v:groupContext="shape" v:layerMember="0" transform="translate(285.75,-490.5)">
 			<title>Start/End.27</title>
 			<desc>rating</desc>
 			<v:custProps>
@@ -475,9 +508,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="10.7" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>rating</text>		</g>
-		<g id="shape28-59" v:mID="28" v:groupContext="shape" v:layerMember="0" transform="translate(81,-369.281)">
+					class="st2"/>
+			<text x="10.7" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>rating</text>		</g>
+		<g id="shape28-69" v:mID="28" v:groupContext="shape" v:layerMember="0" transform="translate(20.8125,-370.114)">
 			<title>Start/End.28</title>
 			<desc>timestamp</desc>
 			<v:custProps>
@@ -506,9 +539,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="24.75" cy="604.406" width="49.5" height="15.1875"/>
 			<path d="M7.59 612 L41.91 612 A7.59375 7.59375 -180 0 0 41.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="7.19" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>timestamp</text>		</g>
-		<g id="shape29-62" v:mID="29" v:groupContext="shape" v:layerMember="0" transform="translate(180,-288)">
+					class="st2"/>
+			<text x="7.19" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>timestamp</text>		</g>
+		<g id="shape29-72" v:mID="29" v:groupContext="shape" v:layerMember="0" transform="translate(135,-272.813)">
 			<title>Start/End.29</title>
 			<desc>id</desc>
 			<v:custProps>
@@ -537,9 +570,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="23.625" cy="604.406" width="47.25" height="15.1875"/>
 			<path d="M7.59 612 L39.66 612 A7.59375 7.59375 -180 0 0 39.66 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="20.61" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st4">id</tspan></text>		</g>
-		<g id="shape30-66" v:mID="30" v:groupContext="shape" v:layerMember="0" transform="translate(244.125,-288)">
+					class="st2"/>
+			<text x="20.61" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st4">id</tspan></text>		</g>
+		<g id="shape30-76" v:mID="30" v:groupContext="shape" v:layerMember="0" transform="translate(201.375,-261.563)">
 			<title>Start/End.30</title>
 			<desc>comment</desc>
 			<v:custProps>
@@ -566,11 +599,11 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
-			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="4.63" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>comment</text>		</g>
-		<g id="shape31-69" v:mID="31" v:groupContext="shape" v:layerMember="0" transform="translate(396,-506.813)">
+			<v:textRect cx="24.75" cy="604.406" width="49.5" height="15.1875"/>
+			<path d="M7.59 612 L41.91 612 A7.59375 7.59375 -180 0 0 41.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
+					class="st2"/>
+			<text x="9.13" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>comment</text>		</g>
+		<g id="shape31-79" v:mID="31" v:groupContext="shape" v:layerMember="0" transform="translate(348.75,-506.531)">
 			<title>Start/End.31</title>
 			<desc>id</desc>
 			<v:custProps>
@@ -599,42 +632,11 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="17.23" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st4">id</tspan></text>		</g>
-		<g id="shape32-73" v:mID="32" v:groupContext="shape" v:layerMember="0" transform="translate(465.75,-369.563)">
-			<title>Start/End.32</title>
-			<desc>preview_thumbnails</desc>
-			<v:custProps>
-				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
-						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
-						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-			</v:custProps>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
-				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
-				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
-				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="36" cy="604.406" width="72" height="15.1875"/>
-			<path d="M7.59 612 L64.41 612 A7.59375 7.59375 -180 0 0 64.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st5"/>
-			<text x="2.69" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>preview_thumbnails</text>		</g>
-		<g id="shape33-76" v:mID="33" v:groupContext="shape" v:layerMember="0" transform="translate(522,-443.25)">
+					class="st2"/>
+			<text x="17.23" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st4">id</tspan></text>		</g>
+		<g id="shape33-83" v:mID="33" v:groupContext="shape" v:layerMember="0" transform="translate(508.5,-423)">
 			<title>Start/End.33</title>
-			<desc>location_type</desc>
+			<desc>location type</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -661,11 +663,11 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="27" cy="604.406" width="54" height="15.1875"/>
 			<path d="M7.59 612 L46.41 612 A7.59375 7.59375 -180 0 0 46.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="4.66" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>location_type</text>		</g>
-		<g id="shape34-79" v:mID="34" v:groupContext="shape" v:layerMember="0" transform="translate(418.5,-524.813)">
+					class="st2"/>
+			<text x="5.75" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>location type</text>		</g>
+		<g id="shape34-86" v:mID="34" v:groupContext="shape" v:layerMember="0" transform="translate(369,-527.906)">
 			<title>Start/End.34</title>
-			<desc>title</desc>
+			<desc>name (title)</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -690,11 +692,11 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="15.75" cy="604.406" width="31.5" height="15.1875"/>
-			<path d="M7.59 612 L23.91 612 A7.59375 7.59375 -180 0 0 23.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="9.24" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>title</text>		</g>
-		<g id="shape35-82" v:mID="35" v:groupContext="shape" v:layerMember="0" transform="translate(436.5,-542.813)">
+			<v:textRect cx="22.5" cy="604.406" width="45" height="15.1875"/>
+			<path d="M7.59 612 L37.41 612 A7.59375 7.59375 -180 0 0 37.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
+					class="st2"/>
+			<text x="3.46" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>name (title)</text>		</g>
+		<g id="shape35-89" v:mID="35" v:groupContext="shape" v:layerMember="0" transform="translate(414,-540)">
 			<title>Start/End.35</title>
 			<desc>description</desc>
 			<v:custProps>
@@ -723,9 +725,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="2.02" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>description</text>		</g>
-		<g id="shape36-85" v:mID="36" v:groupContext="shape" v:layerMember="0" transform="translate(528.75,-424.406)">
+					class="st2"/>
+			<text x="2.02" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>description</text>		</g>
+		<g id="shape36-92" v:mID="36" v:groupContext="shape" v:layerMember="0" transform="translate(508.5,-405)">
 			<title>Start/End.36</title>
 			<desc>location</desc>
 			<v:custProps>
@@ -754,9 +756,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="7.15" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>location</text>		</g>
-		<g id="shape43-88" v:mID="43" v:groupContext="shape" v:layerMember="0" transform="translate(612.649,-532.688)">
+					class="st2"/>
+			<text x="7.15" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>location</text>		</g>
+		<g id="shape43-95" v:mID="43" v:groupContext="shape" v:layerMember="0" transform="translate(634.6,-524.587)">
 			<title>Process.43</title>
 			<desc>Encoding</desc>
 			<v:custProps>
@@ -783,12 +785,12 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="20.25" cy="603" width="40.5" height="18"/>
-			<path d="M0 612 L40.5 612 L40.5 594 L0 594 L0 612 Z" class="st6"/>
-			<text x="5.39" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Encoding</text>		</g>
-		<g id="shape44-91" v:mID="44" v:groupContext="shape" v:layerMember="0" transform="translate(528.75,-497.25)">
+			<v:textRect cx="26.1" cy="594.9" width="52.2" height="34.2"/>
+			<rect x="0" y="577.8" width="52.2" height="34.2" class="st1"/>
+			<text x="11.24" y="597.3" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Encoding</text>		</g>
+		<g id="shape44-98" v:mID="44" v:groupContext="shape" v:layerMember="0" transform="translate(518.85,-490.725)">
 			<title>Decision.44</title>
-			<desc>describes</desc>
+			<desc>___has___ Is for</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -813,14 +815,15 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="22.5" cy="595.125" width="37.5" height="25.3125"/>
-			<path d="M0 595.12 L22.5 578.25 L45 595.12 L22.5 612 L0 595.12 Z" class="st6"/>
-			<text x="7.18" y="597.52" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>describes</text>		</g>
-		<g id="shape45-94" v:mID="45" v:groupContext="shape" v:layerMember="1" transform="translate(348.995,-536.043)">
+			<v:textRect cx="32.4" cy="588.6" width="54" height="35.1"/>
+			<path d="M0 588.6 L32.4 565.2 L64.8 588.6 L32.4 612 L0 588.6 Z" class="st1"/>
+			<text x="14.86" y="586.2" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">has</tspan>___<v:newlineChar/><tspan
+						x="24.2" dy="1.2em" class="st5">Is for</tspan></text>		</g>
+		<g id="shape45-103" v:mID="45" v:groupContext="shape" v:layerMember="1" transform="translate(306.846,-569.813)">
 			<title>Dynamic connector.45</title>
-			<path d="M-3.18 615.06 L-14.82 626.94" class="st3"/>
+			<path d="M0 612 L-20.79 631.36" class="st6"/>
 		</g>
-		<g id="shape46-97" v:mID="46" v:groupContext="shape" v:layerMember="0" transform="translate(612.649,-569.813)">
+		<g id="shape46-106" v:mID="46" v:groupContext="shape" v:layerMember="0" transform="translate(640.45,-569.813)">
 			<title>Start/End.46</title>
 			<desc>height</desc>
 			<v:custProps>
@@ -849,9 +852,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="9.92" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>height</text>		</g>
-		<g id="shape47-100" v:mID="47" v:groupContext="shape" v:layerMember="0" transform="translate(656,-568.688)">
+					class="st2"/>
+			<text x="9.92" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>height</text>		</g>
+		<g id="shape47-109" v:mID="47" v:groupContext="shape" v:layerMember="0" transform="translate(683.8,-568.688)">
 			<title>Start/End.47</title>
 			<desc>width</desc>
 			<v:custProps>
@@ -880,40 +883,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="10.93" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>width</text>		</g>
-		<g id="shape48-103" v:mID="48" v:groupContext="shape" v:layerMember="0" transform="translate(670.5,-524.531)">
-			<title>Start/End.48</title>
-			<desc>bit rate</desc>
-			<v:custProps>
-				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
-						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
-						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-			</v:custProps>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
-				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
-				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
-				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="29.25" cy="604.406" width="58.5" height="15.1875"/>
-			<path d="M7.59 612 L50.91 612 A7.59375 7.59375 -180 0 0 50.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st5"/>
-			<text x="17.35" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>bit rate</text>		</g>
-		<g id="shape49-106" v:mID="49" v:groupContext="shape" v:layerMember="0" transform="translate(679.5,-546.75)">
+					class="st2"/>
+			<text x="10.93" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>width</text>		</g>
+		<g id="shape49-112" v:mID="49" v:groupContext="shape" v:layerMember="0" transform="translate(707.3,-546.75)">
 			<title>Start/End.49</title>
 			<desc>encoding</desc>
 			<v:custProps>
@@ -942,97 +914,97 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="5.35" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>encoding</text>		</g>
-		<g id="shape52-109" v:mID="52" v:groupContext="shape" v:layerMember="1" transform="translate(623.899,-569.813)">
+					class="st2"/>
+			<text x="5.35" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>encoding</text>		</g>
+		<g id="shape52-115" v:mID="52" v:groupContext="shape" v:layerMember="1" transform="translate(651.7,-574.65)">
 			<title>Dynamic connector.52</title>
-			<path d="M9 612 L9 631.12" class="st3"/>
+			<path d="M9 616.84 L9 625.16" class="st6"/>
 		</g>
-		<g id="shape53-112" v:mID="53" v:groupContext="shape" v:layerMember="1" transform="translate(667.034,-568.688)">
+		<g id="shape53-118" v:mID="53" v:groupContext="shape" v:layerMember="1" transform="translate(694.474,-574.087)">
 			<title>Dynamic connector.53</title>
-			<path d="M0 612 L-21.85 630" class="st3"/>
+			<path d="M-3.03 617.4 L-14.97 624.6" class="st6"/>
 		</g>
-		<g id="shape54-115" v:mID="54" v:groupContext="shape" v:layerMember="1" transform="translate(652.825,-542.813)">
+		<g id="shape54-121" v:mID="54" v:groupContext="shape" v:layerMember="1" transform="translate(689.5,-539.82)">
 			<title>Dynamic connector.54</title>
-			<path d="M0.32 619.31 L17.68 622.69" class="st3"/>
+			<path d="M0 620.82 L19.25 621.18" class="st6"/>
 		</g>
-		<g id="shape55-118" v:mID="55" v:groupContext="shape" v:layerMember="1" transform="translate(653.149,-539.016)">
+		<g id="shape55-124" v:mID="55" v:groupContext="shape" v:layerMember="1" transform="translate(689.4,-542.672)">
 			<title>Dynamic connector.55</title>
-			<path d="M0 609.33 L26.35 596.67" class="st3"/>
+			<path d="M0.1 605.67 L17.9 600.33" class="st6"/>
 		</g>
-		<g id="shape56-121" v:mID="56" v:groupContext="shape" v:layerMember="1" transform="translate(612.649,-541.688)">
+		<g id="shape56-127" v:mID="56" v:groupContext="shape" v:layerMember="1" transform="translate(631.9,-541.688)">
 			<title>Dynamic connector.56</title>
-			<path d="M0 612 L-49.4 631.69" class="st3"/>
+			<path d="M0 612 L-55.75 631.24" class="st6"/>
 		</g>
-		<g id="shape57-124" v:mID="57" v:groupContext="shape" v:layerMember="1" transform="translate(539.19,-506.295)">
+		<g id="shape57-130" v:mID="57" v:groupContext="shape" v:layerMember="1" transform="translate(526.11,-505.98)">
 			<title>Dynamic connector.57</title>
-			<path d="M0 612 L-50.33 639.04" class="st3"/>
+			<path d="M0 612 L-77.11 651.01" class="st6"/>
 		</g>
-		<g id="shape59-127" v:mID="59" v:groupContext="shape" v:layerMember="1" transform="translate(346.5,-511.864)">
+		<g id="shape59-133" v:mID="59" v:groupContext="shape" v:layerMember="1" transform="translate(297.48,-529.11)">
 			<title>Dynamic connector.59</title>
-			<path d="M0 612 L106.36 652.49" class="st3"/>
+			<path d="M0 612 L97.52 682.11" class="st6"/>
 		</g>
-		<g id="shape60-130" v:mID="60" v:groupContext="shape" v:layerMember="1" transform="translate(345.762,-481.786)">
+		<g id="shape60-136" v:mID="60" v:groupContext="shape" v:layerMember="1" transform="translate(299.706,-465.541)">
 			<title>Dynamic connector.60</title>
-			<path d="M0 619.59 L107.1 622.41" class="st3"/>
+			<path d="M0 613.43 L95.29 628.57" class="st6"/>
 		</g>
-		<g id="shape61-133" v:mID="61" v:groupContext="shape" v:layerMember="1" transform="translate(301.084,-451.927)">
+		<g id="shape61-139" v:mID="61" v:groupContext="shape" v:layerMember="1" transform="translate(305.068,-493.962)">
 			<title>Dynamic connector.61</title>
-			<path d="M3.97 607.74 L14.03 598.26" class="st3"/>
+			<path d="M-4.81 615.46 L-13.19 626.54" class="st6"/>
 		</g>
-		<g id="shape62-136" v:mID="62" v:groupContext="shape" v:layerMember="1" transform="translate(128.25,-367.875)">
+		<g id="shape62-142" v:mID="62" v:groupContext="shape" v:layerMember="1" transform="translate(66.6563,-368.708)">
 			<title>Dynamic connector.62</title>
-			<path d="M2.25 603 L15.75 603" class="st3"/>
+			<path d="M3.66 603 L14.34 603" class="st6"/>
 		</g>
-		<g id="shape63-139" v:mID="63" v:groupContext="shape" v:layerMember="1" transform="translate(213.754,-300.094)">
+		<g id="shape63-145" v:mID="63" v:groupContext="shape" v:layerMember="1" transform="translate(177.35,-282.634)">
 			<title>Dynamic connector.63</title>
-			<path d="M0.63 608.91 L17.37 597.09" class="st3"/>
+			<path d="M0 607.13 L21.77 598.87" class="st6"/>
 		</g>
-		<g id="shape64-142" v:mID="64" v:groupContext="shape" v:layerMember="1" transform="translate(245.632,-318.094)">
+		<g id="shape64-148" v:mID="64" v:groupContext="shape" v:layerMember="1" transform="translate(217.125,-291.375)">
 			<title>Dynamic connector.64</title>
-			<path d="M4.74 615.09 L13.26 626.91" class="st3"/>
+			<path d="M9 615.37 L9 626.62" class="st6"/>
 		</g>
-		<g id="shape65-145" v:mID="65" v:groupContext="shape" v:layerMember="1" transform="translate(142.99,-449.937)">
+		<g id="shape65-151" v:mID="65" v:groupContext="shape" v:layerMember="1" transform="translate(68.2525,-490.573)">
 			<title>Dynamic connector.65</title>
-			<path d="M0 607.11 L22.39 598.89" class="st3"/>
+			<path d="M1.31 604.29 L16.69 601.71" class="st6"/>
 		</g>
-		<g id="shape66-148" v:mID="66" v:groupContext="shape" v:layerMember="1" transform="translate(85.5,-494.719)">
+		<g id="shape66-154" v:mID="66" v:groupContext="shape" v:layerMember="1" transform="translate(70.0313,-555.047)">
 			<title>Dynamic connector.66</title>
-			<path d="M0 619.31 L21.37 622.69" class="st3"/>
+			<path d="M0.28 620.86 L17.72 621.14" class="st6"/>
 		</g>
-		<g id="shape67-151" v:mID="67" v:groupContext="shape" v:layerMember="1" transform="translate(96.75,-508.219)">
+		<g id="shape67-157" v:mID="67" v:groupContext="shape" v:layerMember="1" transform="translate(81.5625,-567)">
 			<title>Dynamic connector.67</title>
-			<path d="M0 613.41 L20.25 628.59" class="st3"/>
+			<path d="M0 613.41 L20.25 628.59" class="st6"/>
 		</g>
-		<g id="shape68-154" v:mID="68" v:groupContext="shape" v:layerMember="1" transform="translate(151.875,-502.313)">
+		<g id="shape68-160" v:mID="68" v:groupContext="shape" v:layerMember="1" transform="translate(68.625,-526.635)">
 			<title>Dynamic connector.68</title>
-			<path d="M0 612 L19.12 637.31" class="st3"/>
+			<path d="M1.69 617.49 L16.31 624.51" class="st6"/>
 		</g>
-		<g id="shape69-157" v:mID="69" v:groupContext="shape" v:layerMember="1" transform="translate(174.938,-477)">
+		<g id="shape69-163" v:mID="69" v:groupContext="shape" v:layerMember="1" transform="translate(136.969,-522.281)">
 			<title>Dynamic connector.69</title>
-			<path d="M3.94 612 L14.06 586.69" class="st3"/>
+			<path d="M1.97 610.87 L16.03 595.12" class="st6"/>
 		</g>
-		<g id="shape70-160" v:mID="70" v:groupContext="shape" v:layerMember="1" transform="translate(416.25,-506.813)">
+		<g id="shape70-166" v:mID="70" v:groupContext="shape" v:layerMember="1" transform="translate(369,-506.531)">
 			<title>Dynamic connector.70</title>
-			<path d="M0 612 L36.61 641.81" class="st3"/>
+			<path d="M0 612 L31.5 651.56" class="st6"/>
 		</g>
-		<g id="shape71-163" v:mID="71" v:groupContext="shape" v:layerMember="1" transform="translate(434.25,-524.813)">
+		<g id="shape71-169" v:mID="71" v:groupContext="shape" v:layerMember="1" transform="translate(391.5,-527.906)">
 			<title>Dynamic connector.71</title>
-			<path d="M0 612 L21.37 656.44" class="st3"/>
+			<path d="M0 612 L22.5 672.94" class="st6"/>
 		</g>
-		<g id="shape72-166" v:mID="72" v:groupContext="shape" v:layerMember="1" transform="translate(495.276,-550.001)">
+		<g id="shape72-172" v:mID="72" v:groupContext="shape" v:layerMember="1" transform="translate(457.582,-529.392)">
 			<title>Dynamic connector.72</title>
-			<path d="M0 612 L-24.41 681.63" class="st3"/>
+			<path d="M0 612 L-25.58 674.42" class="st6"/>
 		</g>
-		<g id="shape73-169" v:mID="73" v:groupContext="shape" v:layerMember="1" transform="translate(528.952,-434.495)">
+		<g id="shape73-175" v:mID="73" v:groupContext="shape" v:layerMember="1" transform="translate(508.5,-426.45)">
 			<title>Dynamic connector.73</title>
-			<path d="M0 612 L-42.95 584.12" class="st3"/>
+			<path d="M0 607.86 L-58.31 598.14" class="st6"/>
 		</g>
-		<g id="shape74-172" v:mID="74" v:groupContext="shape" v:layerMember="1" transform="translate(522,-449.297)">
+		<g id="shape74-178" v:mID="74" v:groupContext="shape" v:layerMember="1" transform="translate(508.5,-412.594)">
 			<title>Dynamic connector.74</title>
-			<path d="M0 610.45 L-33.14 595.55" class="st3"/>
+			<path d="M0 612 L-59.5 590.34" class="st6"/>
 		</g>
-		<g id="shape4-175" v:mID="4" v:groupContext="shape" v:layerMember="0" transform="translate(432.597,-195.545)">
+		<g id="shape4-181" v:mID="4" v:groupContext="shape" v:layerMember="0" transform="translate(316.125,-67.2379)">
 			<title>Process.4</title>
 			<desc>Movie</desc>
 			<v:custProps>
@@ -1059,12 +1031,12 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="18" cy="603" width="36" height="18"/>
-			<rect x="0" y="594" width="36" height="18" class="st1"/>
-			<text x="7.76" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Movie</text>		</g>
-		<g id="shape11-178" v:mID="11" v:groupContext="shape" v:layerMember="0" transform="translate(585,-441.563)">
+			<v:textRect cx="27" cy="594" width="54" height="36"/>
+			<rect x="0" y="576" width="54" height="36" class="st2"/>
+			<text x="16.76" y="596.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Movie</text>		</g>
+		<g id="shape11-184" v:mID="11" v:groupContext="shape" v:layerMember="0" transform="translate(549,-423)">
 			<title>Decision.11</title>
-			<desc>features</desc>
+			<desc>___features___ appears in</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -1089,14 +1061,15 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="20.25" cy="596.813" width="33.75" height="22.7813"/>
-			<path d="M0 596.81 L20.25 581.62 L40.5 596.81 L20.25 612 L0 596.81 Z" class="st1"/>
-			<text x="6.73" y="599.21" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>features</text>		</g>
-		<g id="shape20-181" v:mID="20" v:groupContext="shape" v:layerMember="1" transform="translate(488.863,-474.152)">
+			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
+			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
+			<text x="10.53" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">features</tspan>___<v:newlineChar/><tspan
+						x="19.09" dy="1.2em" class="st5">appears in</tspan></text>		</g>
+		<g id="shape20-189" v:mID="20" v:groupContext="shape" v:layerMember="1" transform="translate(449,-440.349)">
 			<title>Dynamic connector.20</title>
-			<path d="M0 614.78 L99.04 627.22" class="st3"/>
+			<path d="M0 603.38 L100.36 602.62" class="st6"/>
 		</g>
-		<g id="shape37-184" v:mID="37" v:groupContext="shape" v:layerMember="0" transform="translate(684,-484.313)">
+		<g id="shape37-192" v:mID="37" v:groupContext="shape" v:layerMember="0" transform="translate(708.75,-484.313)">
 			<title>Start/End.37</title>
 			<desc>stage name</desc>
 			<v:custProps>
@@ -1125,9 +1098,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="25.875" cy="604.406" width="51.75" height="15.1875"/>
 			<path d="M7.59 612 L44.16 612 A7.59375 7.59375 -180 0 0 44.16 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="7.07" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st4">stage name</tspan></text>		</g>
-		<g id="shape38-188" v:mID="38" v:groupContext="shape" v:layerMember="0" transform="translate(645.75,-389.25)">
+					class="st2"/>
+			<text x="7.07" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/><tspan class="st4">stage name</tspan></text>		</g>
+		<g id="shape38-196" v:mID="38" v:groupContext="shape" v:layerMember="0" transform="translate(670.5,-388.125)">
 			<title>Start/End.38</title>
 			<desc>first name</desc>
 			<v:custProps>
@@ -1156,9 +1129,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="3.71" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>first name</text>		</g>
-		<g id="shape42-191" v:mID="42" v:groupContext="shape" v:layerMember="0" transform="translate(695.25,-389.25)">
+					class="st2"/>
+			<text x="3.71" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>first name</text>		</g>
+		<g id="shape42-199" v:mID="42" v:groupContext="shape" v:layerMember="0" transform="translate(720,-388.125)">
 			<title>Start/End.42</title>
 			<desc>last name</desc>
 			<v:custProps>
@@ -1187,131 +1160,113 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="4.4" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>last name</text>		</g>
-		<g id="shape80-194" v:mID="80" v:groupContext="shape" transform="translate(386.654,-237.7)">
-			<title>Triangle</title>
-			<desc>IsA</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="12.5965" cy="603.602" width="25.2" height="16.7953"/>
-			<path d="M27.14 612 L12.6 586.81 L-1.95 612 L27.14 612 Z" class="st7"/>
-			<text x="7.71" y="606" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>IsA</text>		</g>
-		<g id="shape81-197" v:mID="81" v:groupContext="shape" v:layerMember="1" transform="translate(407.997,-262.893)">
+					class="st2"/>
+			<text x="4.4" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>last name</text>		</g>
+		<g id="shape81-202" v:mID="81" v:groupContext="shape" v:layerMember="1" transform="translate(296.813,-157.5)">
 			<title>Dynamic connector.81</title>
-			<path d="M-8.75 612 L-9.25 578.17" class="st3"/>
+			<path d="M8.81 612 L9.19 576.68" class="st6"/>
 		</g>
-		<g id="shape82-200" v:mID="82" v:groupContext="shape" v:layerMember="1" transform="translate(413.946,-237.7)">
+		<g id="shape82-205" v:mID="82" v:groupContext="shape" v:layerMember="1" transform="translate(320.321,-132.307)">
 			<title>Dynamic connector.82</title>
-			<path d="M0 612 L18.65 636.16" class="st3"/>
+			<path d="M0 612 L22.8 641.07" class="st6"/>
 		</g>
-		<g id="shape84-203" v:mID="84" v:groupContext="shape" v:layerMember="1" transform="translate(716.625,-402.75)">
+		<g id="shape84-208" v:mID="84" v:groupContext="shape" v:layerMember="1" transform="translate(741.375,-401.625)">
 			<title>Dynamic connector.84</title>
-			<path d="M-1.13 610.31 L-16.88 595.69" class="st3"/>
+			<path d="M-1.13 610.31 L-16.88 595.69" class="st6"/>
 		</g>
-		<g id="shape86-206" v:mID="86" v:groupContext="shape" v:layerMember="1" transform="translate(682.875,-420.75)">
+		<g id="shape86-211" v:mID="86" v:groupContext="shape" v:layerMember="1" transform="translate(707.625,-419.625)">
 			<title>Dynamic connector.86</title>
-			<path d="M-1.13 613.69 L-16.88 628.31" class="st3"/>
+			<path d="M-1.13 613.69 L-16.88 628.31" class="st6"/>
 		</g>
-		<g id="shape87-209" v:mID="87" v:groupContext="shape" v:layerMember="1" transform="translate(710.821,-484.523)">
+		<g id="shape87-214" v:mID="87" v:groupContext="shape" v:layerMember="1" transform="translate(735.651,-484.313)">
 			<title>Dynamic connector.87</title>
-			<path d="M-4.68 612.21 L-13.32 629.79" class="st3"/>
+			<path d="M-4.6 612 L-13.4 630.7" class="st6"/>
 		</g>
-		<g id="shape88-212" v:mID="88" v:groupContext="shape" transform="translate(349.25,-217.201)">
-			<title>Sheet.88</title>
-			<desc>disjoint not covering</desc>
-			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="50" cy="602.156" width="100.01" height="19.6875"/>
-			<rect x="0" y="592.313" width="100" height="19.6875" class="st8"/>
-			<text x="37.99" y="599.76" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>disjoint<v:lf/><tspan
-						x="29.65" dy="1.2em" class="st9">not covering</tspan></text>		</g>
-		<g id="shape89-216" v:mID="89" v:groupContext="shape" transform="translate(116.5,-418.219)">
+		<g id="shape89-217" v:mID="89" v:groupContext="shape" transform="translate(57.5,-438.75)">
 			<title>Sheet.89</title>
 			<desc>1</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.97" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
-		<g id="shape90-219" v:mID="90" v:groupContext="shape" transform="translate(150.25,-342)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.97" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape90-220" v:mID="90" v:groupContext="shape" transform="translate(112.5,-333.75)">
 			<title>Sheet.90</title>
 			<desc>n</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.9" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
-		<g id="shape91-222" v:mID="91" v:groupContext="shape" transform="translate(213.25,-460.5)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.9" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
+		<g id="shape91-223" v:mID="91" v:groupContext="shape" transform="translate(152,-486.75)">
 			<title>Sheet.91</title>
 			<desc>n</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.9" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
-		<g id="shape92-225" v:mID="92" v:groupContext="shape" transform="translate(343.75,-462)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.9" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
+		<g id="shape92-226" v:mID="92" v:groupContext="shape" transform="translate(323.75,-456.75)">
 			<title>Sheet.92</title>
 			<desc>m</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="46.8" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>m</text>		</g>
-		<g id="shape93-228" v:mID="93" v:groupContext="shape" transform="translate(206,-492.75)">
+			<v:textRect cx="22.75" cy="606" width="45.5" height="12"/>
+			<rect x="0" y="600" width="45.5" height="12" class="st7"/>
+			<text x="19.55" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>m</text>		</g>
+		<g id="shape93-229" v:mID="93" v:groupContext="shape" transform="translate(145.75,-523.5)">
 			<title>Sheet.93</title>
 			<desc>1</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.97" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
-		<g id="shape94-231" v:mID="94" v:groupContext="shape" transform="translate(343.75,-494.25)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.97" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape94-232" v:mID="94" v:groupContext="shape" transform="translate(294.75,-495)">
 			<title>Sheet.94</title>
 			<desc>n</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.9" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
-		<g id="shape95-234" v:mID="95" v:groupContext="shape" transform="translate(463.5,-492)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.9" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
+		<g id="shape95-235" v:mID="95" v:groupContext="shape" transform="translate(440,-486.75)">
 			<title>Sheet.95</title>
 			<desc>1</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.97" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
-		<g id="shape96-237" v:mID="96" v:groupContext="shape" transform="translate(537.75,-531)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.97" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape96-238" v:mID="96" v:groupContext="shape" transform="translate(554.75,-531.75)">
 			<title>Sheet.96</title>
 			<desc>1</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.97" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
-		<g id="shape97-240" v:mID="97" v:groupContext="shape" transform="translate(270,-336)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.97" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape97-241" v:mID="97" v:groupContext="shape" transform="translate(249.75,-326.25)">
 			<title>Sheet.97</title>
 			<desc>n</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.9" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
-		<g id="shape98-243" v:mID="98" v:groupContext="shape" transform="translate(374.75,-402.75)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.9" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
+		<g id="shape98-244" v:mID="98" v:groupContext="shape" transform="translate(332.5,-388.5)">
 			<title>Sheet.98</title>
 			<desc>1</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.97" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
-		<g id="shape99-246" v:mID="99" v:groupContext="shape" transform="translate(597.5,-456.75)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.97" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape99-247" v:mID="99" v:groupContext="shape" transform="translate(603,-453)">
 			<title>Sheet.99</title>
 			<desc>m</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="46.8" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>m</text>		</g>
-		<g id="shape100-249" v:mID="100" v:groupContext="shape" transform="translate(451.75,-278.25)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="46.8" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>m</text>		</g>
+		<g id="shape100-250" v:mID="100" v:groupContext="shape" transform="translate(416.25,-198.824)">
 			<title>Sheet.100</title>
 			<desc>n</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.9" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
-		<g id="shape103-252" v:mID="103" v:groupContext="shape" v:layerMember="0" transform="translate(670.5,-448.733)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.9" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
+		<g id="shape103-253" v:mID="103" v:groupContext="shape" v:layerMember="0" transform="translate(686.25,-438.608)">
 			<title>Process.103</title>
 			<desc>Actor</desc>
 			<v:custProps>
@@ -1338,45 +1293,14 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="18" cy="603" width="36" height="18"/>
-			<rect x="0" y="594" width="36" height="18" class="st1"/>
-			<text x="9.15" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Actor</text>		</g>
-		<g id="shape12-255" v:mID="12" v:groupContext="shape" v:layerMember="0" transform="translate(519.75,-387.563)">
-			<title>Start/End.12</title>
-			<desc>genre</desc>
-			<v:custProps>
-				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
-						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
-						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-			</v:custProps>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
-				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
-				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
-				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
-			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st5"/>
-			<text x="10.89" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>genre</text>		</g>
-		<g id="shape39-258" v:mID="39" v:groupContext="shape" v:layerMember="1" transform="translate(482.625,-385.688)">
+			<v:textRect cx="27" cy="594" width="54" height="36"/>
+			<rect x="0" y="576" width="54" height="36" class="st2"/>
+			<text x="18.15" y="596.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Actor</text>		</g>
+		<g id="shape39-256" v:mID="39" v:groupContext="shape" v:layerMember="1" transform="translate(427.5,-365.344)">
 			<title>Dynamic connector.39</title>
-			<path d="M-1.13 612 L-16.88 535.31" class="st3"/>
+			<path d="M-4.5 612 L-13.5 546.38" class="st6"/>
 		</g>
-		<g id="shape58-261" v:mID="58" v:groupContext="shape" v:layerMember="0" transform="translate(573.75,-485.156)">
+		<g id="shape58-259" v:mID="58" v:groupContext="shape" v:layerMember="0" transform="translate(580.5,-388.125)">
 			<title>Start/End.58</title>
 			<desc>character name</desc>
 			<v:custProps>
@@ -1405,13 +1329,13 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="31.5" cy="604.406" width="63" height="15.1875"/>
 			<path d="M7.59 612 L55.41 612 A7.59375 7.59375 -180 0 0 55.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="5.96" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>character name</text>		</g>
-		<g id="shape79-264" v:mID="79" v:groupContext="shape" v:layerMember="1" transform="translate(596.25,-487.547)">
+					class="st2"/>
+			<text x="5.96" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>character name</text>		</g>
+		<g id="shape79-262" v:mID="79" v:groupContext="shape" v:layerMember="1" transform="translate(615.66,-403.313)">
 			<title>Dynamic connector.79</title>
-			<path d="M9 614.39 L9 627.61" class="st3"/>
+			<path d="M-3.66 612 L-14.34 580.07" class="st6"/>
 		</g>
-		<g id="shape78-267" v:mID="78" v:groupContext="shape" v:layerMember="0" transform="translate(378.494,-296.719)">
+		<g id="shape78-265" v:mID="78" v:groupContext="shape" v:layerMember="0" transform="translate(279,-192.824)">
 			<title>Process.78</title>
 			<desc>Full Video</desc>
 			<v:custProps>
@@ -1438,12 +1362,12 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="20.25" cy="603" width="40.5" height="18"/>
-			<rect x="0" y="594" width="40.5" height="18" class="st1"/>
-			<text x="4.18" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Full Video</text>		</g>
-		<g id="shape83-270" v:mID="83" v:groupContext="shape" v:layerMember="0" transform="translate(441,-268.031)">
+			<v:textRect cx="27" cy="594" width="54" height="36"/>
+			<rect x="0" y="576" width="54" height="36" class="st2"/>
+			<text x="10.93" y="596.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Full Video</text>		</g>
+		<g id="shape83-268" v:mID="83" v:groupContext="shape" v:layerMember="0" transform="translate(373.5,-182.25)">
 			<title>Decision.83</title>
-			<desc>has</desc>
+			<desc>___has___ is for</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -1468,64 +1392,34 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="20.25" cy="596.813" width="33.75" height="22.7813"/>
-			<path d="M0 596.81 L20.25 581.62 L40.5 596.81 L20.25 612 L0 596.81 Z" class="st1"/>
-			<text x="14.67" y="599.21" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>has</text>		</g>
-		<g id="shape85-273" v:mID="85" v:groupContext="shape" v:layerMember="1" transform="translate(481.5,-280.969)">
+			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
+			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
+			<text x="18.46" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">has</tspan>___     <v:newlineChar/><tspan
+						x="27.89" dy="1.2em" class="st5">is for</tspan></text>		</g>
+		<g id="shape85-273" v:mID="85" v:groupContext="shape" v:layerMember="1" transform="translate(445.5,-201.037)">
 			<title>Dynamic connector.85</title>
-			<path d="M0 609.75 L33.75 596.25" class="st3"/>
+			<path d="M0 603.79 L40.5 602.21" class="st6"/>
 		</g>
-		<g id="shape101-276" v:mID="101" v:groupContext="shape" v:layerMember="1" transform="translate(414,-298.969)">
+		<g id="shape101-276" v:mID="101" v:groupContext="shape" v:layerMember="1" transform="translate(333,-219.037)">
 			<title>Dynamic connector.101</title>
-			<path d="M0 614.25 L27 627.75" class="st3"/>
+			<path d="M0 620.21 L40.5 621.79" class="st6"/>
 		</g>
-		<g id="shape102-279" v:mID="102" v:groupContext="shape" v:layerMember="1" transform="translate(625.101,-448.391)">
+		<g id="shape102-279" v:mID="102" v:groupContext="shape" v:layerMember="1" transform="translate(621,-444.304)">
 			<title>Dynamic connector.102</title>
-			<path d="M0 603.34 L45.4 602.66" class="st3"/>
+			<path d="M0 606.3 L65.25 599.7" class="st6"/>
 		</g>
-		<g id="shape105-282" v:mID="105" v:groupContext="shape" v:layerMember="0" transform="translate(533.25,-405.563)">
-			<title>Start/End.105</title>
-			<desc>director</desc>
-			<v:custProps>
-				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
-						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
-						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-			</v:custProps>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
-				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
-				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
-				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
-			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st5"/>
-			<text x="7.31" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>director</text>		</g>
-		<g id="shape108-285" v:mID="108" v:groupContext="shape" v:layerMember="1" transform="translate(533.25,-413.156)">
+		<g id="shape108-282" v:mID="108" v:groupContext="shape" v:layerMember="1" transform="translate(497.25,-393.39)">
 			<title>Dynamic connector.108</title>
-			<path d="M0 612 L-51.75 562.78" class="st3"/>
+			<path d="M0 612 L-56.25 574.42" class="st6"/>
 		</g>
-		<g id="shape109-288" v:mID="109" v:groupContext="shape" transform="translate(374.75,-279)">
+		<g id="shape109-285" v:mID="109" v:groupContext="shape" transform="translate(305,-196.574)">
 			<title>Sheet.109</title>
 			<desc>1</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.97" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
-		<g id="shape5-291" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(339.75,-195.545)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.97" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>1</text>		</g>
+		<g id="shape5-288" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(238.568,-67.2379)">
 			<title>Process.5</title>
 			<desc>TV Show</desc>
 			<v:custProps>
@@ -1552,10 +1446,10 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="18" cy="603" width="36" height="18"/>
-			<rect x="0" y="594" width="36" height="18" class="st1"/>
-			<text x="3.97" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>TV Show</text>		</g>
-		<g id="shape6-294" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(263.25,-202.125)">
+			<v:textRect cx="27" cy="594" width="54" height="36"/>
+			<rect x="0" y="576" width="54" height="36" class="st2"/>
+			<text x="12.97" y="596.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>TV Show</text>		</g>
+		<g id="shape6-291" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(159.75,-81.5057)">
 			<title>Start/End.6</title>
 			<desc>season</desc>
 			<v:custProps>
@@ -1584,17 +1478,17 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="28.6533" cy="604.406" width="57.31" height="15.1875"/>
 			<path d="M7.59 612 L49.71 612 A7.59375 7.59375 -180 0 0 49.71 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="17.41" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>season</text>		</g>
-		<g id="shape19-297" v:mID="19" v:groupContext="shape" v:layerMember="1" transform="translate(320.557,-216.132)">
+					class="st2"/>
+			<text x="17.41" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>season</text>		</g>
+		<g id="shape19-294" v:mID="19" v:groupContext="shape" v:layerMember="1" transform="translate(217.057,-96.1686)">
 			<title>Dynamic connector.19</title>
-			<path d="M0 618.41 L19.19 623.59" class="st3"/>
+			<path d="M0 619.07 L21.51 622.93" class="st6"/>
 		</g>
-		<g id="shape104-300" v:mID="104" v:groupContext="shape" v:layerMember="1" transform="translate(365.026,-213.545)">
+		<g id="shape104-297" v:mID="104" v:groupContext="shape" v:layerMember="1" transform="translate(265.568,-103.238)">
 			<title>Dynamic connector.104</title>
-			<path d="M0 612 L19.53 587.84" class="st3"/>
+			<path d="M0 612 L25.36 582.93" class="st6"/>
 		</g>
-		<g id="shape106-303" v:mID="106" v:groupContext="shape" v:layerMember="0" transform="translate(478.401,-550.001)">
+		<g id="shape106-300" v:mID="106" v:groupContext="shape" v:layerMember="0" transform="translate(454.5,-527.906)">
 			<title>Start/End.106</title>
 			<desc>country</desc>
 			<v:custProps>
@@ -1623,13 +1517,13 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="16.875" cy="604.406" width="33.75" height="15.1875"/>
 			<path d="M7.59 612 L26.16 612 A7.59375 7.59375 -180 0 0 26.16 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="4.33" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>country</text>		</g>
-		<g id="shape107-306" v:mID="107" v:groupContext="shape" v:layerMember="1" transform="translate(451.125,-542.813)">
+					class="st2"/>
+			<text x="4.33" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>country</text>		</g>
+		<g id="shape107-303" v:mID="107" v:groupContext="shape" v:layerMember="1" transform="translate(437.125,-540)">
 			<title>Dynamic connector.107</title>
-			<path d="M5.62 612 L12.37 674.44" class="st3"/>
+			<path d="M-2.87 612 L-15.13 685.03" class="st6"/>
 		</g>
-		<g id="shape111-309" v:mID="111" v:groupContext="shape" v:layerMember="0" transform="translate(513.552,-538.313)">
+		<g id="shape111-306" v:mID="111" v:groupContext="shape" v:layerMember="0" transform="translate(463.5,-506.813)">
 			<title>Start/End.111</title>
 			<desc>language</desc>
 			<v:custProps>
@@ -1658,13 +1552,13 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="22.5" cy="604.406" width="45" height="15.1875"/>
 			<path d="M7.59 612 L37.41 612 A7.59375 7.59375 -180 0 0 37.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="7.79" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>language</text>		</g>
-		<g id="shape112-312" v:mID="112" v:groupContext="shape" v:layerMember="1" transform="translate(536.052,-538.313)">
+					class="st2"/>
+			<text x="7.79" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>language</text>		</g>
+		<g id="shape112-309" v:mID="112" v:groupContext="shape" v:layerMember="1" transform="translate(477,-506.813)">
 			<title>Dynamic connector.112</title>
-			<path d="M0 612 L-59.05 669.94" class="st3"/>
+			<path d="M0 612 L-36 651.84" class="st6"/>
 		</g>
-		<g id="shape113-315" v:mID="113" v:groupContext="shape" v:layerMember="0" transform="translate(106.875,-476.438)">
+		<g id="shape113-312" v:mID="113" v:groupContext="shape" v:layerMember="0" transform="translate(87.75,-538.313)">
 			<title>Start/End.113</title>
 			<desc>name</desc>
 			<v:custProps>
@@ -1693,15 +1587,15 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="11.05" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>name</text>		</g>
-		<g id="shape114-318" v:mID="114" v:groupContext="shape" v:layerMember="1" transform="translate(144.235,-481.94)">
+					class="st2"/>
+			<text x="11.05" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>name</text>		</g>
+		<g id="shape114-315" v:mID="114" v:groupContext="shape" v:layerMember="1" transform="translate(118.969,-521.859)">
 			<title>Dynamic connector.114</title>
-			<path d="M0 616.06 L21.14 625.94" class="st3"/>
+			<path d="M-7.03 610.45 L-10.97 595.55" class="st6"/>
 		</g>
-		<g id="shape18-321" v:mID="18" v:groupContext="shape" v:layerMember="0" transform="translate(288,-396)">
+		<g id="shape18-318" v:mID="18" v:groupContext="shape" v:layerMember="0" transform="translate(234,-378)">
 			<title>Decision.18</title>
-			<desc>interacts with</desc>
+			<desc>_interacts with_ Is accessed by</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -1726,72 +1620,41 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="22.5" cy="595.688" width="37.5" height="24.4688"/>
-			<path d="M0 595.69 L22.5 579.37 L45 595.69 L22.5 612 L0 595.69 Z" class="st1"/>
-			<text x="8.24" y="593.29" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>interacts <tspan
-						x="15.28" dy="1.2em" class="st9">with</tspan></text>		</g>
-		<g id="shape50-325" v:mID="50" v:groupContext="shape" v:layerMember="1" transform="translate(192.375,-468)">
+			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
+			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
+			<text x="9.64" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>_<tspan class="st4">interacts with</tspan>_<v:newlineChar/><tspan
+						x="13.2" dy="1.2em" class="st5">Is accessed by</tspan></text>		</g>
+		<g id="shape50-323" v:mID="50" v:groupContext="shape" v:layerMember="1" transform="translate(138.938,-505.406)">
 			<title>Dynamic connector.50</title>
-			<path d="M0 612 L95.62 667.69" class="st3"/>
+			<path d="M0 612 L95.06 712.41" class="st6"/>
 		</g>
-		<g id="shape51-328" v:mID="51" v:groupContext="shape" v:layerMember="1" transform="translate(333,-412.313)">
+		<g id="shape51-326" v:mID="51" v:groupContext="shape" v:layerMember="1" transform="translate(306,-405)">
 			<title>Dynamic connector.51</title>
-			<path d="M0 612 L119.86 556.31" class="st3"/>
+			<path d="M0 612 L89 576" class="st6"/>
 		</g>
-		<g id="shape116-331" v:mID="116" v:groupContext="shape" transform="translate(193.5,-426)">
+		<g id="shape116-329" v:mID="116" v:groupContext="shape" transform="translate(137.25,-441)">
 			<title>Sheet.116</title>
 			<desc>n</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.9" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
-		<g id="shape117-334" v:mID="117" v:groupContext="shape" transform="translate(343.25,-429)">
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.9" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
+		<g id="shape117-332" v:mID="117" v:groupContext="shape" transform="translate(326.25,-413.25)">
 			<title>Sheet.117</title>
 			<desc>m</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="46.8" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>m</text>		</g>
-		<g id="shape115-337" v:mID="115" v:groupContext="shape" v:layerMember="0" transform="translate(486,-387.563)">
-			<title>Start/End.115</title>
-			<desc>tags</desc>
-			<v:custProps>
-				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
-						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
-						v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0"/>
-				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
-						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
-						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
-			</v:custProps>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
-				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
-				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
-				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="14.625" cy="604.406" width="29.25" height="15.1875"/>
-			<path d="M7.31 612 L21.94 612 A7.3125 7.59375 -180 0 0 21.94 596.81 L7.31 596.81 A7.3125 7.59375 -180 1 0 7.31 612 Z"
-					class="st5"/>
-			<text x="7.92" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>tags</text>		</g>
-		<g id="shape76-340" v:mID="76" v:groupContext="shape" v:layerMember="1" transform="translate(500.625,-402.75)">
+			<v:textRect cx="29.5" cy="606" width="59.01" height="12"/>
+			<rect x="0" y="600" width="59" height="12" class="st7"/>
+			<text x="26.3" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>m</text>		</g>
+		<g id="shape76-335" v:mID="76" v:groupContext="shape" v:layerMember="1" transform="translate(445.5,-389.25)">
 			<title>Dynamic connector.76</title>
-			<path d="M0 612 L-29.76 552.37" class="st3"/>
+			<path d="M0 612 L-23.5 570.28" class="st6"/>
 		</g>
-		<g id="shape77-343" v:mID="77" v:groupContext="shape" v:layerMember="1" transform="translate(393.3,-375.525)">
+		<g id="shape77-338" v:mID="77" v:groupContext="shape" v:layerMember="1" transform="translate(360,-371.25)">
 			<title>Dynamic connector.77</title>
-			<path d="M0 612 L59.56 525.15" class="st3"/>
+			<path d="M0 612 L35 552.28" class="st6"/>
 		</g>
-		<g id="shape118-346" v:mID="118" v:groupContext="shape" v:layerMember="0" transform="translate(668.25,-419.063)">
+		<g id="shape118-341" v:mID="118" v:groupContext="shape" v:layerMember="0" transform="translate(693,-417.938)">
 			<title>Start/End.118</title>
 			<desc>name</desc>
 			<v:custProps>
@@ -1820,13 +1683,13 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="11.05" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>name</text>		</g>
-		<g id="shape119-349" v:mID="119" v:groupContext="shape" v:layerMember="1" transform="translate(679.5,-450.491)">
+					class="st2"/>
+			<text x="11.05" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>name</text>		</g>
+		<g id="shape119-344" v:mID="119" v:groupContext="shape" v:layerMember="1" transform="translate(704.25,-444.866)">
 			<title>Dynamic connector.119</title>
-			<path d="M9 613.76 L9 628.24" class="st3"/>
+			<path d="M9 618.26 L9 623.74" class="st6"/>
 		</g>
-		<g id="shape120-352" v:mID="120" v:groupContext="shape" v:layerMember="0" transform="translate(234,-396)">
+		<g id="shape120-347" v:mID="120" v:groupContext="shape" v:layerMember="0" transform="translate(180,-383.917)">
 			<title>Start/End.120</title>
 			<desc>event type</desc>
 			<v:custProps>
@@ -1855,9 +1718,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="2.88" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>event type</text>		</g>
-		<g id="shape121-355" v:mID="121" v:groupContext="shape" v:layerMember="0" transform="translate(222.75,-377.156)">
+					class="st2"/>
+			<text x="2.88" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>event type</text>		</g>
+		<g id="shape121-350" v:mID="121" v:groupContext="shape" v:layerMember="0" transform="translate(173.686,-362.708)">
 			<title>Start/End.121</title>
 			<desc>event timestamp</desc>
 			<v:custProps>
@@ -1886,9 +1749,9 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="30.1569" cy="604.406" width="60.32" height="15.1875"/>
 			<path d="M7.59 612 L52.72 612 A7.59375 7.59375 -180 0 0 52.72 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="2.46" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>event timestamp</text>		</g>
-		<g id="shape122-358" v:mID="122" v:groupContext="shape" v:layerMember="0" transform="translate(270,-359.156)">
+					class="st2"/>
+			<text x="2.46" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>event timestamp</text>		</g>
+		<g id="shape122-353" v:mID="122" v:groupContext="shape" v:layerMember="0" transform="translate(216,-342.563)">
 			<title>Start/End.122</title>
 			<desc>video timestamp</desc>
 			<v:custProps>
@@ -1917,21 +1780,21 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="31.5" cy="604.406" width="63" height="15.1875"/>
 			<path d="M7.59 612 L55.41 612 A7.59375 7.59375 -180 0 0 55.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="4.11" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>video timestamp</text>		</g>
-		<g id="shape123-361" v:mID="123" v:groupContext="shape" v:layerMember="1" transform="translate(279.398,-388.327)">
+					class="st2"/>
+			<text x="4.11" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>video timestamp</text>		</g>
+		<g id="shape123-356" v:mID="123" v:groupContext="shape" v:layerMember="1" transform="translate(229.562,-374.203)">
 			<title>Dynamic connector.123</title>
-			<path d="M0 609.08 L20.89 596.92" class="st3"/>
+			<path d="M0 608.99 L25.51 597.01" class="st6"/>
 		</g>
-		<g id="shape124-364" v:mID="124" v:groupContext="shape" v:layerMember="1" transform="translate(274.5,-396.514)">
+		<g id="shape124-359" v:mID="124" v:groupContext="shape" v:layerMember="1" transform="translate(220.5,-385.494)">
 			<title>Dynamic connector.124</title>
-			<path d="M0 604.92 L20.23 601.08" class="st3"/>
+			<path d="M0 605.98 L23.53 600.02" class="st6"/>
 		</g>
-		<g id="shape125-367" v:mID="125" v:groupContext="shape" v:layerMember="1" transform="translate(315,-396)">
+		<g id="shape125-362" v:mID="125" v:groupContext="shape" v:layerMember="1" transform="translate(263.225,-384.788)">
 			<title>Dynamic connector.125</title>
-			<path d="M-4.5 612 L-13.5 633.66" class="st3"/>
+			<path d="M-2.28 612 L-15.72 639.04" class="st6"/>
 		</g>
-		<g id="shape40-370" v:mID="40" v:groupContext="shape" v:layerMember="0" transform="translate(495,-296.719)">
+		<g id="shape40-365" v:mID="40" v:groupContext="shape" v:layerMember="0" transform="translate(486,-192.824)">
 			<title>Process.40</title>
 			<desc>Trailer</desc>
 			<v:custProps>
@@ -1958,32 +1821,22 @@
 				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="20.25" cy="603" width="40.5" height="18"/>
-			<rect x="0" y="594" width="40.5" height="18" class="st1"/>
-			<text x="9.77" y="605.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Trailer</text>		</g>
-		<g id="shape41-373" v:mID="41" v:groupContext="shape" transform="translate(446.936,-348.923)">
-			<title>Triangle.41</title>
-			<desc>IsA</desc>
-			<v:userDefs>
-				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
-			</v:userDefs>
-			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-			<v:textRect cx="12.5965" cy="603.602" width="25.2" height="16.7953"/>
-			<path d="M27.14 612 L12.6 586.81 L-1.95 612 L27.14 612 Z" class="st7"/>
-			<text x="7.71" y="606" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>IsA</text>		</g>
-		<g id="shape126-376" v:mID="126" v:groupContext="shape" v:layerMember="1" transform="translate(468.266,-374.116)">
+			<v:textRect cx="27" cy="594" width="54" height="36"/>
+			<rect x="0" y="576" width="54" height="36" class="st2"/>
+			<text x="16.52" y="596.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Trailer</text>		</g>
+		<g id="shape126-368" v:mID="126" v:groupContext="shape" v:layerMember="1" transform="translate(395.999,-318.881)">
 			<title>Dynamic connector.126</title>
-			<path d="M-8.73 612 L-9.27 523.74" class="st3"/>
+			<path d="M9 612 L9 499.91" class="st6"/>
 		</g>
-		<g id="shape127-379" v:mID="127" v:groupContext="shape" v:layerMember="1" transform="translate(474.228,-348.923)">
+		<g id="shape127-371" v:mID="127" v:groupContext="shape" v:layerMember="1" transform="translate(419.693,-293.688)">
 			<title>Dynamic connector.127</title>
-			<path d="M0 612 L41.02 646.2" class="st3"/>
+			<path d="M0 612 L93.31 676.86" class="st6"/>
 		</g>
-		<g id="shape128-382" v:mID="128" v:groupContext="shape" v:layerMember="1" transform="translate(398.744,-314.719)">
+		<g id="shape128-374" v:mID="128" v:groupContext="shape" v:layerMember="1" transform="translate(306,-228.824)">
 			<title>Dynamic connector.128</title>
-			<path d="M0 612 L46.09 577.8" class="st3"/>
+			<path d="M0 612 L84.3 547.14" class="st6"/>
 		</g>
-		<g id="shape110-385" v:mID="110" v:groupContext="shape" v:layerMember="0" transform="translate(479.25,-197.156)">
+		<g id="shape110-377" v:mID="110" v:groupContext="shape" v:layerMember="0" transform="translate(387.068,-77.8494)">
 			<title>Start/End.110</title>
 			<desc>MPAA rating</desc>
 			<v:custProps>
@@ -2012,13 +1865,13 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="28.6533" cy="604.406" width="57.31" height="15.1875"/>
 			<path d="M7.59 612 L49.71 612 A7.59375 7.59375 -180 0 0 49.71 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="8.08" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>MPAA rating</text>		</g>
-		<g id="shape129-388" v:mID="129" v:groupContext="shape" v:layerMember="1" transform="translate(464.923,-195.647)">
+					class="st2"/>
+			<text x="8.08" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>MPAA rating</text>		</g>
+		<g id="shape129-380" v:mID="129" v:groupContext="shape" v:layerMember="1" transform="translate(369.597,-76.3405)">
 			<title>Dynamic connector.129</title>
-			<path d="M3.67 603.1 L14.33 602.9" class="st3"/>
+			<path d="M0.53 603.1 L17.47 602.9" class="st6"/>
 		</g>
-		<g id="shape130-391" v:mID="130" v:groupContext="shape" v:layerMember="0" transform="translate(313.875,-164.25)">
+		<g id="shape130-383" v:mID="130" v:groupContext="shape" v:layerMember="0" transform="translate(226.193,-36.8629)">
 			<title>Start/End.130</title>
 			<desc>TV parental guideline</desc>
 			<v:custProps>
@@ -2047,13 +1900,13 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="39.375" cy="604.406" width="78.75" height="15.1875"/>
 			<path d="M7.59 612 L71.16 612 A7.59375 7.59375 -180 0 0 71.16 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="4.75" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>TV parental guideline</text>		</g>
-		<g id="shape131-394" v:mID="131" v:groupContext="shape" v:layerMember="1" transform="translate(346.5,-178.491)">
+					class="st2"/>
+			<text x="4.75" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>TV parental guideline</text>		</g>
+		<g id="shape131-386" v:mID="131" v:groupContext="shape" v:layerMember="1" transform="translate(256.568,-50.6441)">
 			<title>Dynamic connector.131</title>
-			<path d="M6.75 611.05 L11.25 594.95" class="st3"/>
+			<path d="M9 610.59 L9 595.41" class="st6"/>
 		</g>
-		<g id="shape132-397" v:mID="132" v:groupContext="shape" v:layerMember="0" transform="translate(266.097,-182.531)">
+		<g id="shape132-389" v:mID="132" v:groupContext="shape" v:layerMember="0" transform="translate(159.75,-58.2379)">
 			<title>Start/End.132</title>
 			<desc>episode</desc>
 			<v:custProps>
@@ -2082,30 +1935,545 @@
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="28.6533" cy="604.406" width="57.31" height="15.1875"/>
 			<path d="M7.59 612 L49.71 612 A7.59375 7.59375 -180 0 0 49.71 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
-					class="st1"/>
-			<text x="15.88" y="606.81" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>episode</text>		</g>
-		<g id="shape133-400" v:mID="133" v:groupContext="shape" v:layerMember="1" transform="translate(322.577,-184.359)">
+					class="st2"/>
+			<text x="15.88" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>episode</text>		</g>
+		<g id="shape133-392" v:mID="133" v:groupContext="shape" v:layerMember="1" transform="translate(217.057,-59.7848)">
 			<title>Dynamic connector.133</title>
-			<path d="M0.83 606.23 L17.17 599.77" class="st3"/>
+			<path d="M0 605.95 L21.51 600.05" class="st6"/>
 		</g>
-		<g id="shape134-403" v:mID="134" v:groupContext="shape" transform="translate(409.533,-326.531)">
-			<title>Sheet.134</title>
-			<desc>disjoint covering</desc>
-			<v:textBlock v:margins="rect(2,2,2,2)"/>
-			<v:textRect cx="50" cy="602.156" width="100.01" height="19.6875"/>
-			<rect x="0" y="592.313" width="100" height="19.6875" class="st8"/>
-			<text x="37.99" y="599.76" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>disjoint<v:lf/><tspan
-						x="36.11" dy="1.2em" class="st9">covering</tspan></text>		</g>
-		<g id="shape75-407" v:mID="75" v:groupContext="shape" v:layerMember="1" transform="translate(525.438,-401.944)">
+		<g id="shape75-395" v:mID="75" v:groupContext="shape" v:layerMember="1" transform="translate(505.497,-340.953)">
 			<title>Dynamic connector.75</title>
-			<path d="M0 612 L-48.44 551.57" class="st3"/>
+			<path d="M0 612 L-78 521.98" class="st6"/>
 		</g>
-		<g id="shape135-410" v:mID="135" v:groupContext="shape" transform="translate(490.5,-463.5)">
+		<g id="shape135-398" v:mID="135" v:groupContext="shape" transform="translate(447.75,-447.75)">
 			<title>Sheet.135</title>
 			<desc>n</desc>
 			<v:textBlock v:margins="rect(2,2,2,2)"/>
 			<v:textRect cx="50" cy="606" width="100.01" height="12"/>
-			<rect x="0" y="600" width="100" height="12" class="st8"/>
-			<text x="47.9" y="608.4" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
+			<rect x="0" y="600" width="100" height="12" class="st7"/>
+			<text x="47.9" y="608.4" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>n</text>		</g>
+		<g id="shape137-401" v:mID="137" v:groupContext="shape" v:layerMember="0" transform="translate(452.25,-304.313)">
+			<title>Start/End.137</title>
+			<desc>year</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)"/>
+			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
+			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
+					class="st2"/>
+			<text x="13.14" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>year</text>		</g>
+		<g id="shape138-404" v:mID="138" v:groupContext="shape" v:layerMember="0" transform="translate(492.75,-294.75)">
+			<title>Start/End.138</title>
+			<desc>month</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)"/>
+			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
+			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
+					class="st2"/>
+			<text x="9.4" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>month</text>		</g>
+		<g id="shape139-407" v:mID="139" v:groupContext="shape" v:layerMember="1" transform="translate(520.875,-309.375)">
+			<title>Dynamic connector.139</title>
+			<path d="M-7.88 611.44 L-10.13 594.56" class="st6"/>
+		</g>
+		<g id="shape140-410" v:mID="140" v:groupContext="shape" v:layerMember="1" transform="translate(492.75,-335.25)">
+			<title>Dynamic connector.140</title>
+			<path d="M0 614.25 L-20.25 627.75" class="st6"/>
+		</g>
+		<g id="shape141-413" v:mID="141" v:groupContext="shape" v:layerMember="0" transform="translate(488.25,-326.813)">
+			<title>Start/End.141</title>
+			<desc>release date</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)"/>
+			<v:textRect cx="22.5" cy="604.406" width="45" height="15.1875"/>
+			<path d="M7.59 612 L37.41 612 A7.59375 7.59375 -180 0 0 37.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
+					class="st2"/>
+			<text x="2.48" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>release date</text>		</g>
+		<g id="shape136-416" v:mID="136" v:groupContext="shape" v:layerMember="0" transform="translate(533.25,-306)">
+			<title>Start/End.136</title>
+			<desc>day</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)"/>
+			<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
+			<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
+					class="st2"/>
+			<text x="14.42" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>day</text>		</g>
+		<g id="shape142-419" v:mID="142" v:groupContext="shape" v:layerMember="1" transform="translate(533.25,-336.797)">
+			<title>Dynamic connector.142</title>
+			<path d="M0 614.39 L22.5 627.61" class="st6"/>
+		</g>
+		<g id="shape143-422" v:mID="143" v:groupContext="shape" v:layerMember="1" transform="translate(491.102,-379.267)">
+			<title>Dynamic connector.143</title>
+			<path d="M0 612 L-59.1 560.3" class="st6"/>
+		</g>
+		<g id="group145-425" transform="translate(354.997,-271.296)" v:mID="145" v:groupContext="group">
+			<title>Sheet.145</title>
+			<g id="shape41-426" v:mID="41" v:groupContext="shape" transform="translate(37.4035,-22.3922)">
+				<title>Triangle.41</title>
+				<desc>IsA</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="12.5965" cy="603.602" width="25.2" height="16.7953"/>
+				<path d="M27.14 612 L12.6 586.81 L-1.95 612 L27.14 612 Z" class="st8"/>
+				<text x="7.71" y="606" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>IsA</text>			</g>
+			<g id="shape134-429" v:mID="134" v:groupContext="shape">
+				<title>Sheet.134</title>
+				<desc>disjoint covering</desc>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<v:textRect cx="50" cy="602.156" width="100.01" height="19.6875"/>
+				<rect x="0" y="592.313" width="100" height="19.6875" class="st7"/>
+				<text x="37.99" y="599.76" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>disjoint<v:lf/><tspan
+							x="36.11" dy="1.2em" class="st5">covering</tspan></text>			</g>
+		</g>
+		<g id="group146-433" transform="translate(255.625,-111.808)" v:mID="146" v:groupContext="group">
+			<title>Sheet.146</title>
+			<g id="shape80-434" v:mID="80" v:groupContext="shape" transform="translate(37.4035,-20.4989)">
+				<title>Triangle</title>
+				<desc>IsA</desc>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="12.5965" cy="603.602" width="25.2" height="16.7953"/>
+				<path d="M27.14 612 L12.6 586.81 L-1.95 612 L27.14 612 Z" class="st8"/>
+				<text x="7.71" y="606" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>IsA</text>			</g>
+			<g id="shape88-437" v:mID="88" v:groupContext="shape">
+				<title>Sheet.88</title>
+				<desc>disjoint not covering</desc>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<v:textRect cx="50" cy="602.156" width="100.01" height="19.6875"/>
+				<rect x="0" y="592.313" width="100" height="19.6875" class="st7"/>
+				<text x="37.99" y="599.76" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>disjoint<v:lf/><tspan
+							x="29.65" dy="1.2em" class="st5">not covering</tspan></text>			</g>
+		</g>
+		<g id="shape147-441" v:mID="147" v:groupContext="shape" v:layerMember="0" transform="translate(631.9,-521.888)">
+			<title>Process.147</title>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+						v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.75):0"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.75):0"/>
+			</v:userDefs>
+			<rect x="0" y="572.4" width="57.6" height="39.6" class="st9"/>
+		</g>
+		<g id="group151-443" transform="translate(497.25,-384.03)" v:mID="151" v:groupContext="group">
+			<title>Sheet.151</title>
+			<g id="shape150-444" v:mID="150" v:groupContext="shape" v:layerMember="0">
+				<title>Start/End.150</title>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<path d="M9.36 612 L35.64 612 A9.36 9.36 -180 0 0 35.64 593.28 L9.36 593.28 A9.36 9.36 -180 1 0 9.36 612 Z"
+						class="st1"/>
+			</g>
+			<g id="shape149-446" v:mID="149" v:groupContext="shape" v:layerMember="0" transform="translate(2.25,-1.76625)">
+				<title>Start/End.149</title>
+				<desc>directors</desc>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
+				<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59
+							 612 Z" class="st1"/>
+				<text x="5.75" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>directors</text>			</g>
+		</g>
+		<g id="group152-449" transform="translate(488.25,-361.89)" v:mID="152" v:groupContext="group">
+			<title>Sheet.152</title>
+			<g id="shape153-450" v:mID="153" v:groupContext="shape" v:layerMember="0">
+				<title>Start/End.150</title>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<path d="M9.36 612 L35.64 612 A9.36 9.36 -180 0 0 35.64 593.28 L9.36 593.28 A9.36 9.36 -180 1 0 9.36 612 Z"
+						class="st1"/>
+			</g>
+			<g id="shape154-452" v:mID="154" v:groupContext="shape" v:layerMember="0" transform="translate(2.25,-1.76625)">
+				<title>Start/End.149</title>
+				<desc>genres</desc>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
+				<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59
+							 612 Z" class="st1"/>
+				<text x="9.33" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>genres</text>			</g>
+		</g>
+		<g id="group155-455" transform="translate(427.5,-370.53)" v:mID="155" v:groupContext="group">
+			<title>Sheet.155</title>
+			<g id="shape156-456" v:mID="156" v:groupContext="shape" v:layerMember="0">
+				<title>Start/End.150</title>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<path d="M9 612 L27 612 A9 9.36 -180 0 0 27 593.28 L9 593.28 A9 9.36 -180 1 0 9 612 Z" class="st1"/>
+			</g>
+			<g id="shape157-458" v:mID="157" v:groupContext="shape" v:layerMember="0" transform="translate(1.8,-1.76625)">
+				<title>Start/End.149</title>
+				<desc>tags</desc>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<v:textRect cx="16.2" cy="604.406" width="32.4" height="15.1875"/>
+				<path d="M7.59 612 L24.81 612 A7.59375 7.59375 -180 0 0 24.81 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59
+							 612 Z" class="st1"/>
+				<text x="9.5" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>tags</text>			</g>
+		</g>
+		<g id="group158-461" transform="translate(407.25,-348.39)" v:mID="158" v:groupContext="group">
+			<title>Sheet.158</title>
+			<g id="shape159-462" v:mID="159" v:groupContext="shape" v:layerMember="0">
+				<title>Start/End.150</title>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<path d="M9.36 612 L67.14 612 A9.36 9.36 -180 0 0 67.14 593.28 L9.36 593.28 A9.36 9.36 -180 1 0 9.36 612 Z"
+						class="st1"/>
+			</g>
+			<g id="shape160-464" v:mID="160" v:groupContext="shape" v:layerMember="0" transform="translate(3.825,-1.76625)">
+				<title>Start/End.149</title>
+				<desc>preview thumbnails</desc>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<v:textRect cx="34.425" cy="604.406" width="68.86" height="15.1875"/>
+				<path d="M7.59 612 L61.26 612 A7.59375 7.59375 -180 0 0 61.26 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59
+							 612 Z" class="st1"/>
+				<text x="2.2" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>preview thumbnails</text>			</g>
+		</g>
+		<g id="group161-467" transform="translate(708.75,-521.28)" v:mID="161" v:groupContext="group">
+			<title>Sheet.161</title>
+			<g id="shape162-468" v:mID="162" v:groupContext="shape" v:layerMember="0">
+				<title>Start/End.150</title>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<path d="M9.36 612 L35.64 612 A9.36 9.36 -180 0 0 35.64 593.28 L9.36 593.28 A9.36 9.36 -180 1 0 9.36 612 Z"
+						class="st1"/>
+			</g>
+			<g id="shape163-470" v:mID="163" v:groupContext="shape" v:layerMember="0" transform="translate(2.25,-1.76625)">
+				<title>Start/End.149</title>
+				<desc>bit rate</desc>
+				<v:custProps>
+					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="ProcessNumber" v:lbl="Process Number" v:prompt="" v:type="2" v:format="" v:sortKey=""
+							v:invis="false" v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Owner" v:lbl="Owner" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Function" v:lbl="Function" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+					<v:cp v:nameU="StartDate" v:lbl="Start Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="EndDate" v:lbl="End Date" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0"/>
+					<v:cp v:nameU="Status" v:lbl="Status" v:prompt="" v:type="4"
+							v:format=";Not Started;In Progress;Completed;Deferred;Waiting on Input" v:sortKey="" v:invis="false"
+							v:ask="false" v:langID="1033" v:cal="0" v:val="VT4()"/>
+				</v:custProps>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+					<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(1):0"/>
+					<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.375):0"/>
+					<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.375):0"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(2,2,2,2)"/>
+				<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
+				<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59
+							 612 Z" class="st1"/>
+				<text x="8.35" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>bit rate</text>			</g>
+		</g>
 	</g>
 </svg>
