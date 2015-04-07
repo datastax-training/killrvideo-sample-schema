@@ -19,31 +19,31 @@ This data model is for a fictitious video sharing web site. The features we'll b
 
 For the extended schema, we also support:
 
- - Display video with related movie metadata
- - Lookup of movie trailer videos by title and year
- - Lookup of movie trailer videos by actor
- - Lookup of movie trailer videos by director
- - Lookup of movie trailer videos by genre
-
+ - Display video with movie metadata
+ - Lookup of videos by movie metadata
 
 List of queries
 ======================
 
 Original
-Q1: Find user by email
-Q2: Find user by userid
-Q3: Find video by tag
-Q4: Find video by videoid
-Q5: Find videos by adddate (latest first)
-Q6: Find videos by userid (latest first)
-Q7: Find comments by videoid (latest first)
-Q8: Find comments by userid (latest first)
-Q9: Find ratings by videoid
+Q1: Find a user with a specified email
+Q2: Find a user with a specified user id
+Q3: Find videos with a specified tag (latest first)
+Q4: Find a video with a specified video id
+Q5: Find videos with a specified upload timestamp range (latest first)
+Q6: Find videos with a specified user id (latest first)
+Q7: Find comments with a specified video id (latest first)
+Q8: Find comments with a specified user id (latest first)
+Q9: Find a rating with a specified video id
 
 
 Extended
-Q10: Find movie by title and year
-Q11: Find movie by videoid
-Q12: Find movie by actor (latest first)
-Q13: Find movie by director (latest first)
-Q14: Find movie by genre (latest first)
+Q10: Find videos with a specified title (latest first)
+Q11: Find a video with a specified title and release date (latest first)
+Q12: Find videos with a specified actor and release date range (latest first)
+Q13: Find videos with a specified director and release date range (latest first)
+Q14: Find videos with a specified genre and release date range (latest first)
+Q15: Find videos with a specified actor and genre and date range (latest first)
+Q16: Find videos with a specified director and genre and date range (latest first)
+Q17: Find videos with a specified country (latest first)
+
