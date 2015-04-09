@@ -301,7 +301,7 @@
 						x="19.48" dy="1.2em" class="st14">added to the site</tspan></text>		</g>
 		<g id="shape13-230" v:mID="13" v:groupContext="shape" transform="translate(1296.61,-963)">
 			<title>Rounded rectangle.13</title>
-			<desc>Search for videos by tag, release year, title, actor, directo...</desc>
+			<desc>Search for videos by tag, release year, title, actor, genre, ...</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
 			</v:userDefs>
@@ -309,10 +309,10 @@
 			<v:textRect cx="54" cy="1152" width="108" height="72"/>
 			<path d="M99 1188 A9.00007 9.00007 -180 0 0 108 1179 L108 1125 A9.00007 9.00007 -180 0 0 99 1116 L9 1116 A9.00007 9.00007
 						 -180 0 0 0 1125 L0 1179 A9.00007 9.00007 -180 0 0 9 1188 L99 1188 Z" class="st12"/>
-			<text x="4.23" y="1137" class="st13" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Search for videos by tag, <tspan
-						x="4.58" dy="1.2em" class="st14">release year</tspan>, title, actor, <tspan x="16.99" dy="1.2em"
-						class="st14">director</tspan>, genre, or <tspan x="38.31" dy="1.2em" class="st14">country</tspan></text>		</g>
-		<g id="shape14-236" v:mID="14" v:groupContext="shape" transform="translate(1179,-796.514)">
+			<text x="4.23" y="1143" class="st13" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Search for videos by tag, <tspan
+						x="4.58" dy="1.2em" class="st14">release year</tspan>, title, actor,  <tspan x="18.73" dy="1.2em"
+						class="st14">genre</tspan>, or country</text>		</g>
+		<g id="shape14-235" v:mID="14" v:groupContext="shape" transform="translate(1179,-796.514)">
 			<title>Rounded rectangle.14</title>
 			<desc>Show comments for a video</desc>
 			<v:userDefs>
@@ -324,7 +324,7 @@
 						 -180 0 0 0 1125 L0 1179 A9.00007 9.00007 -180 0 0 9 1188 L99 1188 Z" class="st12"/>
 			<text x="9.69" y="1149" class="st13" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Show comments for a <tspan
 						x="42.84" dy="1.2em" class="st14">video</tspan></text>		</g>
-		<g id="shape15-240" v:mID="15" v:groupContext="shape" transform="translate(1296,-795.657)">
+		<g id="shape15-239" v:mID="15" v:groupContext="shape" transform="translate(1296,-795.657)">
 			<title>Rounded rectangle.15</title>
 			<desc>Show a video and its details</desc>
 			<v:userDefs>
@@ -336,7 +336,7 @@
 						 -180 0 0 0 1125 L0 1179 A9.00007 9.00007 -180 0 0 9 1188 L99 1188 Z" class="st12"/>
 			<text x="12.36" y="1149" class="st13" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Show a video and its <tspan
 						x="40.56" dy="1.2em" class="st14">details</tspan></text>		</g>
-		<g id="shape16-244" v:mID="16" v:groupContext="shape" transform="translate(774,-796.5)">
+		<g id="shape16-243" v:mID="16" v:groupContext="shape" transform="translate(774,-796.5)">
 			<title>Rounded rectangle.16</title>
 			<desc>Show basic information about user</desc>
 			<v:userDefs>
@@ -348,7 +348,7 @@
 						 -180 0 0 0 1125 L0 1179 A9.00007 9.00007 -180 0 0 9 1188 L99 1188 Z" class="st12"/>
 			<text x="6.21" y="1149" class="st13" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Show basic information <tspan
 						x="32.1" dy="1.2em" class="st14">about user</tspan></text>		</g>
-		<g id="shape17-248" v:mID="17" v:groupContext="shape" transform="translate(891,-796.5)">
+		<g id="shape17-247" v:mID="17" v:groupContext="shape" transform="translate(891,-796.5)">
 			<title>Rounded rectangle.17</title>
 			<desc>Show videos added by a user</desc>
 			<v:userDefs>
@@ -360,7 +360,7 @@
 						 -180 0 0 0 1125 L0 1179 A9.00007 9.00007 -180 0 0 9 1188 L99 1188 Z" class="st12"/>
 			<text x="5.18" y="1149" class="st13" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Show videos added by a <tspan
 						x="45.19" dy="1.2em" class="st14">user</tspan></text>		</g>
-		<g id="shape18-252" v:mID="18" v:groupContext="shape" transform="translate(1008,-796.5)">
+		<g id="shape18-251" v:mID="18" v:groupContext="shape" transform="translate(1008,-796.5)">
 			<title>Rounded rectangle.18</title>
 			<desc>Show comments posted by a user</desc>
 			<v:userDefs>
@@ -372,11 +372,11 @@
 						 -180 0 0 0 1125 L0 1179 A9.00007 9.00007 -180 0 0 9 1188 L99 1188 Z" class="st12"/>
 			<text x="5.11" y="1149" class="st13" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Show comments posted <tspan
 						x="35.64" dy="1.2em" class="st14">by a user</tspan></text>		</g>
-		<g id="shape8-256" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(1179,-841.507)">
+		<g id="shape8-255" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(1179,-841.507)">
 			<title>Dynamic connector.8</title>
 			<path d="M0 1196.99 L-13.5 1196.99 L-13.5 1197.01 L-55.96 1197.01" class="st8"/>
 		</g>
-		<g id="shape1-261" v:mID="1" v:groupContext="shape" v:layerMember="0" transform="translate(1341.47,-1089)">
+		<g id="shape1-260" v:mID="1" v:groupContext="shape" v:layerMember="0" transform="translate(1341.47,-1089)">
 			<title>Dynamic connector.1</title>
 			<path d="M8.86 1188 L9.14 1188 L9.14 1234.96" class="st8"/>
 		</g>
