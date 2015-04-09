@@ -46,4 +46,3 @@ Q14: Find videos with a specified genre and release date range (latest first)
 Q15: Find videos with a specified actor and genre and date range (latest first)
 Q16: Find videos with a specified director and genre and date range (latest first)
 Q17: Find videos with a specified country (latest first)
-

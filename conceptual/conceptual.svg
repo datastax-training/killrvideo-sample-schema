@@ -182,7 +182,7 @@
 						x="16.59" dy="1.2em" class="st5">is posted by</tspan></text>		</g>
 		<g id="shape8-17" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(234,-441.833)">
 			<title>Decision.8</title>
-			<desc>___rates___ Is rated by</desc>
+			<desc>___rates___ is rated by</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -210,10 +210,10 @@
 			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
 			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
 			<text x="15.84" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">rates</tspan>___<v:newlineChar/><tspan
-						x="18.96" dy="1.2em" class="st5">Is rated by</tspan></text>		</g>
+						x="19.05" dy="1.2em" class="st5">is rated by</tspan></text>		</g>
 		<g id="shape9-22" v:mID="9" v:groupContext="shape" v:layerMember="0" transform="translate(306,-330.75)">
 			<title>Decision.9</title>
-			<desc>___features___ Is featured in</desc>
+			<desc>___features___ is featured in</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -241,10 +241,10 @@
 			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
 			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
 			<text x="10.53" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">features</tspan>___<v:newlineChar/><tspan
-						x="14.55" dy="1.2em" class="st5">Is featured in</tspan></text>		</g>
+						x="14.63" dy="1.2em" class="st5">is featured in</tspan></text>		</g>
 		<g id="shape10-27" v:mID="10" v:groupContext="shape" v:layerMember="0" transform="translate(234,-508.5)">
 			<title>Decision.10</title>
-			<desc>___uploads___ Is uploaded by</desc>
+			<desc>___uploads___ is uploaded by</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -272,7 +272,7 @@
 			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
 			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
 			<text x="11.23" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">uploads</tspan>___<v:newlineChar/><tspan
-						x="12.37" dy="1.2em" class="st5">Is uploaded by</tspan></text>		</g>
+						x="12.46" dy="1.2em" class="st5">is uploaded by</tspan></text>		</g>
 		<g id="shape13-32" v:mID="13" v:groupContext="shape" v:layerMember="1" transform="translate(105.306,-487.406)">
 			<title>Dynamic connector</title>
 			<path d="M7.35 612 L10.65 695.48" class="st6"/>
@@ -667,7 +667,7 @@
 			<text x="5.75" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>location type</text>		</g>
 		<g id="shape34-86" v:mID="34" v:groupContext="shape" v:layerMember="0" transform="translate(369,-527.906)">
 			<title>Start/End.34</title>
-			<desc>name (title)</desc>
+			<desc>title</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -695,7 +695,7 @@
 			<v:textRect cx="22.5" cy="604.406" width="45" height="15.1875"/>
 			<path d="M7.59 612 L37.41 612 A7.59375 7.59375 -180 0 0 37.41 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59 612 Z"
 					class="st2"/>
-			<text x="3.46" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>name (title)</text>		</g>
+			<text x="15.99" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>title</text>		</g>
 		<g id="shape35-89" v:mID="35" v:groupContext="shape" v:layerMember="0" transform="translate(414,-540)">
 			<title>Start/End.35</title>
 			<desc>description</desc>
@@ -790,7 +790,7 @@
 			<text x="11.24" y="597.3" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Encoding</text>		</g>
 		<g id="shape44-98" v:mID="44" v:groupContext="shape" v:layerMember="0" transform="translate(518.85,-490.725)">
 			<title>Decision.44</title>
-			<desc>___has___ Is for</desc>
+			<desc>___has___ is for</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -818,7 +818,7 @@
 			<v:textRect cx="32.4" cy="588.6" width="54" height="35.1"/>
 			<path d="M0 588.6 L32.4 565.2 L64.8 588.6 L32.4 612 L0 588.6 Z" class="st1"/>
 			<text x="14.86" y="586.2" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>___<tspan class="st4">has</tspan>___<v:newlineChar/><tspan
-						x="24.2" dy="1.2em" class="st5">Is for</tspan></text>		</g>
+						x="24.29" dy="1.2em" class="st5">is for</tspan></text>		</g>
 		<g id="shape45-103" v:mID="45" v:groupContext="shape" v:layerMember="1" transform="translate(306.846,-569.813)">
 			<title>Dynamic connector.45</title>
 			<path d="M0 612 L-20.79 631.36" class="st6"/>
@@ -1595,7 +1595,7 @@
 		</g>
 		<g id="shape18-318" v:mID="18" v:groupContext="shape" v:layerMember="0" transform="translate(234,-378)">
 			<title>Decision.18</title>
-			<desc>_interacts with_ Is accessed by</desc>
+			<desc>_interacts with_ is accessed by</desc>
 			<v:custProps>
 				<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
 						v:langID="1033" v:cal="0"/>
@@ -1623,7 +1623,7 @@
 			<v:textRect cx="36" cy="585" width="60" height="40.5"/>
 			<path d="M0 585 L36 558 L72 585 L36 612 L0 585 Z" class="st2"/>
 			<text x="9.64" y="582.6" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>_<tspan class="st4">interacts with</tspan>_<v:newlineChar/><tspan
-						x="13.2" dy="1.2em" class="st5">Is accessed by</tspan></text>		</g>
+						x="13.29" dy="1.2em" class="st5">is accessed by</tspan></text>		</g>
 		<g id="shape50-323" v:mID="50" v:groupContext="shape" v:layerMember="1" transform="translate(138.938,-505.406)">
 			<title>Dynamic connector.50</title>
 			<path d="M0 612 L95.06 712.41" class="st6"/>
@@ -2445,7 +2445,7 @@
 			</g>
 			<g id="shape163-470" v:mID="163" v:groupContext="shape" v:layerMember="0" transform="translate(2.25,-1.76625)">
 				<title>Start/End.149</title>
-				<desc>bit rate</desc>
+				<desc>bit rates</desc>
 				<v:custProps>
 					<v:cp v:nameU="Cost" v:lbl="Cost" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false"
 							v:ask="false" v:langID="1033" v:cal="0"/>
@@ -2473,7 +2473,7 @@
 				<v:textRect cx="20.25" cy="604.406" width="40.5" height="15.1875"/>
 				<path d="M7.59 612 L32.91 612 A7.59375 7.59375 -180 0 0 32.91 596.81 L7.59 596.81 A7.59375 7.59375 -180 1 0 7.59
 							 612 Z" class="st1"/>
-				<text x="8.35" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>bit rate</text>			</g>
+				<text x="6.78" y="606.81" class="st3" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>bit rates</text>			</g>
 		</g>
 	</g>
 </svg>
