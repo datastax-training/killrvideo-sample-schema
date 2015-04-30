@@ -25,24 +25,22 @@ For the extended schema, we also support:
 List of queries
 ======================
 
-Original
-Q1: Find a user with a specified email
-Q2: Find a user with a specified user id
-Q3: Find videos with a specified tag (latest first)
-Q4: Find a video with a specified video id
-Q5: Find videos with a specified upload timestamp range (latest first)
-Q6: Find videos with a specified user id (latest first)
-Q7: Find comments with a specified video id (latest first)
-Q8: Find comments with a specified user id (latest first)
-Q9: Find a rating with a specified video id
+*Original*
+Find a user with a specified email
+Find a user with a specified user id
+Find videos with a specified tag (latest first)
+Find a video with a specified video id
+Find videos with a specified upload timestamp range (latest first)
+Find videos with a specified user id (latest first)
+Find comments with a specified video id (latest first)
+Find comments with a specified user id (latest first)
+Find a rating with a specified video id
 
 
-Extended
-Q10: Find videos with a specified title (latest first)
-Q11: Find a video with a specified title and release date (latest first)
-Q12: Find videos with a specified actor and release date range (latest first)
-Q13: Find videos with a specified director and release date range (latest first)
-Q14: Find videos with a specified genre and release date range (latest first)
-Q15: Find videos with a specified actor and genre and date range (latest first)
-Q16: Find videos with a specified director and genre and date range (latest first)
-Q17: Find videos with a specified country (latest first)
+*Extended*
+Find videos with a specified title (latest first)
+Find a video with a specified title and release year (latest first)
+Find videos with a specified actor and release date year (latest first)
+Find videos with a specified genre and release date year (latest first)
+Find videos with a specified actor and genre and date year (latest first)
+Find videos with a specified country (latest first)
