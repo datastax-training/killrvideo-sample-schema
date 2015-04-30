@@ -1,13 +1,8 @@
 killrvideo-sample-schema
 ===============================
 
-Sample schema for Apache Cassandra 2.1, to demonstrate the usage and features of CQL.
-
-To run
-
-cqlsh -f videodb-schema.cql
-
-cqlsh -f videodb-inserts.cql
+Sample schema for Apache Cassandra 2.1, to demonstrate the usage and features of CQL. 
+The schema has been extended to include functionality needed to demonstrate concepts in DataStax training courses.
 
 Application
 ===========
@@ -22,21 +17,32 @@ This data model is for a fictitious video sharing web site. The features we'll b
  - Lookup of all comments made a particular user
  - Playback tracking per video with the intent of resuming video where they left it.
 
+For the extended schema, we also support:
+
+ - Display video with movie metadata
+ - Lookup of videos by movie metadata
+
+List of queries
+======================
+
+Original
+Q1: Find a user with a specified email
+Q2: Find a user with a specified user id
+Q3: Find videos with a specified tag (latest first)
+Q4: Find a video with a specified video id
+Q5: Find videos with a specified upload timestamp range (latest first)
+Q6: Find videos with a specified user id (latest first)
+Q7: Find comments with a specified video id (latest first)
+Q8: Find comments with a specified user id (latest first)
+Q9: Find a rating with a specified video id
 
 
-Description of tables
-=====================
-
-users - Simple static entity table to store data about a person. Uses a List collection to store more than one email per person.
-
-videos - A static table to store metadata about an uploaded video. Each video has an owner and the username is stored to reference back. A Map collection is used store the location of the video files. This could be used to store various geographic locations if a CDN was in use. Tags are a Set collection and consist of one word descriptions of the video.
-
-username_video_index - A one-to-many example linking users to videos. The lookup is based on username and optionally upload_date and videoid. Videoid is added to allow for more than one video with the same name. The clause "WITH CLUSTERING ORDER BY (upload_date DESC)" has been added to reverse sort the order that videos are stored based on date. Video records for each user will be stored from the latest uploaded to the oldest.
-
-video_rating - Example of a counter table. rating_counter stores how many times the video was rated. rating_total is the cumulative count of rating points per video. The application can then take rating_total and divide by rating_count for the average rating.
-
-tag_index - Index table to create a lookup of videos based on a unique tag. Tags are added to each video, but each tag may have multiple videos. This table allows that kind of lookup.
-
-comments_by_video and comments_by_user - Two tables that create two separate, but related, one-to-many relationship between users and comments on videos. Each video has many comments. Each user has many comments. "WITH CLUSTERING ORDER BY" clause is used on each table to keep the latest comments at the beginning of the storage row.
-
-video_event - Example of a time series data model where there can be an unknown amount of records. This example stores each video playback event (START, STOP) with the video timestamp for player advancement and the time of the actual event. From this table we canb derrive where the user left off with the video and where to star tthem again. We can also determine if users are watching an entire video or how many times they viewd a particular video.
+Extended
+Q10: Find videos with a specified title (latest first)
+Q11: Find a video with a specified title and release date (latest first)
+Q12: Find videos with a specified actor and release date range (latest first)
+Q13: Find videos with a specified director and release date range (latest first)
+Q14: Find videos with a specified genre and release date range (latest first)
+Q15: Find videos with a specified actor and genre and date range (latest first)
+Q16: Find videos with a specified director and genre and date range (latest first)
+Q17: Find videos with a specified country (latest first)
