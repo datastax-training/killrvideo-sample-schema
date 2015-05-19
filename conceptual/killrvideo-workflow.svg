@@ -139,44 +139,44 @@
         <text id="Q3" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
             <tspan x="102.5" y="509.094727">Q3</tspan>
         </text>
-        <text id="Q5" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="684" y="769">Q5</tspan>
+        <text id="Q10" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
+            <tspan x="676" y="764">Q10</tspan>
         </text>
         <text id="Q4" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
             <tspan x="476.5" y="509.094727">Q4</tspan>
         </text>
-        <text id="Q6" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="836" y="510">Q6</tspan>
+        <text id="Q5" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
+            <tspan x="836" y="510">Q5</tspan>
+        </text>
+        <text id="Q5" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
+            <tspan x="1070" y="580">Q5</tspan>
         </text>
         <text id="Q6" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="1070" y="580">Q6</tspan>
+            <tspan x="1315" y="510">Q6</tspan>
         </text>
         <text id="Q7" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="1315" y="510">Q7</tspan>
+            <tspan x="1686" y="510">Q7</tspan>
         </text>
         <text id="Q8" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="1686" y="510">Q8</tspan>
-        </text>
-        <text id="Q9" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="2049" y="510">Q9</tspan>
-        </text>
-        <text id="Q9" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="2049" y="714">Q9</tspan>
+            <tspan x="2049" y="510">Q8</tspan>
         </text>
         <text id="Q8" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="1686" y="714">Q8</tspan>
+            <tspan x="2049" y="714">Q8</tspan>
         </text>
         <text id="Q7" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="1315" y="717">Q7</tspan>
+            <tspan x="1686" y="714">Q7</tspan>
         </text>
-        <text id="Q10" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="2370.5" y="439">Q10</tspan>
+        <text id="Q6" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
+            <tspan x="1315" y="717">Q6</tspan>
+        </text>
+        <text id="Q9" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
+            <tspan x="2370.5" y="439">Q9</tspan>
         </text>
         <text id="Q11" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
             <tspan x="2375" y="790">Q11</tspan>
         </text>
         <g id="Access-Patterns" sketch:type="MSLayerGroup" transform="translate(2.000000, 962.000000)">
-            <rect id="Rectangle-29" stroke="#000000" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="0.216542854" y="0" width="1686.78346" height="567"></rect>
+            <rect id="Rectangle-29" stroke="#000000" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="0.216542854" y="0" width="1743.78346" height="567"></rect>
             <text id="ACCESS-PATTERNS" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="bold" fill="#000000">
                 <tspan x="14.4185424" y="43">ACCESS PATTERNS</tspan>
                 <tspan x="14.4185424" y="84" font-weight="normal"></tspan>
@@ -184,13 +184,13 @@
                 <tspan x="14.4185424" y="166" font-weight="normal">Q2: Find most recently uploaded videos</tspan>
                 <tspan x="14.4185424" y="207" font-weight="normal">Q3 Find a user with a specified user id</tspan>
                 <tspan x="14.4185424" y="248" font-weight="normal">Q4: Find videos uploaded by a user with a known id (show most recently uploaded videos first)</tspan>
-                <tspan x="14.4185424" y="289" font-weight="normal">Q5: Find video interactions for a user with a known id and specified video id (show most recent interactions first)</tspan>
-                <tspan x="14.4185424" y="330" font-weight="normal">Q6: Find comments posted by a user with a known id (show most recently posted comments first)</tspan>
-                <tspan x="14.4185424" y="371" font-weight="normal">Q7: Find comments posted for a video with a known id (show most recent comments first)</tspan>
-                <tspan x="14.4185424" y="412" font-weight="normal">Q8: Find an average rating with a known id (show most recent comments first)</tspan>
-                <tspan x="14.4185424" y="453" font-weight="normal">Q9: Find a video with a specified video id</tspan>
-                <tspan x="14.4185424" y="494" font-weight="normal">Q10: Find trailers for a video with a known id</tspan>
-                <tspan x="14.4185424" y="535" font-weight="normal">Q11: Find actors for a video with a known id</tspan>
+                <tspan x="14.4185424" y="289" font-weight="normal">Q5: Find comments posted by a user with a known id (show most recently posted comments first)</tspan>
+                <tspan x="14.4185424" y="330" font-weight="normal">Q6: Find comments posted for a video with a known id (show most recent comments first)</tspan>
+                <tspan x="14.4185424" y="371" font-weight="normal">Q7: Find an average rating with a known id (show most recent comments first)</tspan>
+                <tspan x="14.4185424" y="412" font-weight="normal">Q8: Find a video with a specified video id</tspan>
+                <tspan x="14.4185424" y="453" font-weight="normal">Q9: Find trailers for a video with a known id (show title in ascending order)</tspan>
+                <tspan x="14.4185424" y="494" font-weight="normal">Q10: Find video interactions for a user with a known id and specified video id (show most recent interactions first)</tspan>
+                <tspan x="14.4185424" y="535" font-weight="normal">Q11: Find actors for a video with a known id (show actor names in ascending order)</tspan>
             </text>
         </g>
     </g>
