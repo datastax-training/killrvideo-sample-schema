@@ -207,12 +207,12 @@
                 <tspan x="10" y="154" fill="#D1870E">title</tspan>
                 <tspan x="48.0039062" y="154"></tspan>
                 <tspan x="10" y="182">description</tspan>
-                <tspan x="118.738281" y="182" fill="#D1870E"></tspan>
-                <tspan x="10" y="210" fill="#D1870E">type</tspan>
-                <tspan x="52" y="210"></tspan>
-                <tspan x="10" y="238" fill="#D1870E">location</tspan>
-                <tspan x="10" y="266" fill="#D1870E">location_type</tspan>
-                <tspan x="142.996094" y="266"></tspan>
+                <tspan x="10" y="210">duration</tspan>
+                <tspan x="92.4765625" y="210" fill="#D1870E"></tspan>
+                <tspan x="10" y="238" fill="#D1870E">type</tspan>
+                <tspan x="52" y="238"></tspan>
+                <tspan x="10" y="266" fill="#D1870E">url</tspan>
+                <tspan x="36.765625" y="266"></tspan>
                 <tspan x="10" y="294">encoding</tspan>
                 <tspan x="10" y="322" fill="#D1870E">{tags}</tspan>
                 <tspan x="10" y="350" fill="#D1870E">&lt;preview_thumbnails&gt;</tspan>
