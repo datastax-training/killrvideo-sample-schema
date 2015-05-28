@@ -21,8 +21,8 @@
             <text id="ratings_by_video" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#007B98">
                 <tspan x="10" y="28">ratings_by_video</tspan>
             </text>
-            <text id="videoid---------UUID" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="10" y="70">videoid         UUID</tspan>
+            <text id="videoid---------TIME" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
+                <tspan x="10" y="70">videoid         TIMEUUID</tspan>
                 <tspan x="10" y="98">num_ratings  COUNTER</tspan>
                 <tspan x="10" y="126">sum_ratings  COUNTER</tspan>
             </text>
@@ -39,7 +39,7 @@
                 <tspan x="13.1076923" y="28.375">actors_by_video</tspan>
             </text>
             <text id="videoid-------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="13.1076923" y="73">videoid                      UUID</tspan>
+                <tspan x="13.1076923" y="73">videoid                      TIMEUUID</tspan>
                 <tspan x="13.1076923" y="101">actor_name               TEXT</tspan>
                 <tspan x="13.1076923" y="129">character_name         TEXT</tspan>
             </text>
@@ -58,12 +58,12 @@
             <text id="trailers_by_video" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#007B98">
                 <tspan x="13.1076923" y="28.375">trailers_by_video</tspan>
             </text>
-            <text id="videoid------------U" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="13.1076923" y="73">videoid            UUID</tspan>
+            <text id="videoid------------T" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
+                <tspan x="13.1076923" y="73">videoid            TIMEUUID</tspan>
                 <tspan x="13.1076923" y="101" fill="#D1870E">title                 TEXT</tspan>
                 <tspan x="219.451442" y="101"></tspan>
-                <tspan x="13.1076923" y="129">trailerid           UUID</tspan>
-                <tspan x="221.197536" y="129" fill="#D1870E"></tspan>
+                <tspan x="13.1076923" y="129">trailerid           TIMEUUID</tspan>
+                <tspan x="269.431911" y="129" fill="#D1870E"></tspan>
                 <tspan x="13.1076923" y="157" fill="#D1870E">type                TEXT</tspan>
                 <tspan x="13.1076923" y="185" fill="#D1870E">{tags}              SET&lt;TEXT&gt;</tspan>
                 <tspan x="13.1076923" y="213" fill="#D1870E">&lt;preview_thumbnails&gt;  MAP&lt;BLOB&gt;</tspan>
@@ -86,10 +86,10 @@
                 <tspan x="13.7854196" y="28.375">comments_by_video</tspan>
             </text>
             <text id="videoid-------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="13.7854196" y="73">videoid                      UUID</tspan>
+                <tspan x="13.7854196" y="73">videoid                      TIMEUUID</tspan>
                 <tspan x="13.7854196" y="101">posted_timestamp     TIMESTAMP</tspan>
-                <tspan x="13.7854196" y="129" fill="#D1870E">userid                       UUID     </tspan>
-                <tspan x="318.203388" y="129"></tspan>
+                <tspan x="13.7854196" y="129" fill="#D1870E">userid                       TIMEUUID     </tspan>
+                <tspan x="366.437763" y="129"></tspan>
                 <tspan x="13.7854196" y="157" fill="#D1870E">comment                   TEXT</tspan>
                 <tspan x="287.711201" y="157"></tspan>
                 <tspan x="13.7854196" y="185">title                           TEXT</tspan>
@@ -120,10 +120,10 @@
                 <tspan x="14.2384615" y="28">comments_by_user</tspan>
             </text>
             <text id="userid--------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="14.2384615" y="70">userid                        UUID</tspan>
+                <tspan x="14.2384615" y="70">userid                        TIMEUUID</tspan>
                 <tspan x="14.2384615" y="98">posted_timestamp      TIMESTAMP</tspan>
-                <tspan x="14.2384615" y="126" fill="#D1870E">videoid                      UUID</tspan>
-                <tspan x="289.160337" y="126"></tspan>
+                <tspan x="14.2384615" y="126" fill="#D1870E">videoid                      TIMEUUID</tspan>
+                <tspan x="337.394712" y="126"></tspan>
                 <tspan x="14.2384615" y="154">comment                   TEXT</tspan>
                 <tspan x="14.2384615" y="182">title                           TEXT</tspan>
                 <tspan x="14.2384615" y="210">type                          TEXT</tspan>
@@ -149,49 +149,43 @@
                 <tspan x="15.6" y="28">videos_by_user</tspan>
             </text>
             <text id="userid--------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="15.6" y="70">userid                           UUID</tspan>
-                <tspan x="15.6" y="98">uploaded_timestamp     TIMESTAMP</tspan>
-                <tspan x="15.6" y="126">videoid                         UUID</tspan>
-                <tspan x="15.6" y="154">title                              TEXT</tspan>
-                <tspan x="15.6" y="182">type                             TEXT</tspan>
-                <tspan x="15.6" y="210">{tags}                           SET&lt;TEXT&gt;</tspan>
-                <tspan x="15.6" y="238" fill="#D1870E">&lt;preview_thumbnails&gt;  MAP&lt;BLOB&gt;</tspan>
+                <tspan x="15.6" y="70">userid                           TIMEUUID</tspan>
+                <tspan x="15.6" y="98">videoid                         TIMEUUID</tspan>
+                <tspan x="15.6" y="126">title                              TEXT</tspan>
+                <tspan x="15.6" y="154">type                             TEXT</tspan>
+                <tspan x="15.6" y="182">{tags}                           SET&lt;TEXT&gt;</tspan>
+                <tspan x="15.6" y="210" fill="#D1870E">&lt;preview_thumbnails&gt;  MAP&lt;BLOB&gt;</tspan>
             </text>
             <text id="K" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#D1870D">
                 <tspan x="425.88" y="70">K</tspan>
                 <tspan x="425.88" y="98">C</tspan>
-                <tspan x="425.88" y="126">C</tspan>
             </text>
             <text id="Ordering-Copy-2" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="24" font-weight="normal" fill="#D1870E">
                 <tspan x="458.64" y="71"></tspan>
                 <tspan x="458.64" y="99">↓</tspan>
-                <tspan x="458.64" y="127">↑</tspan>
             </text>
         </g>
         <g id="latest_videos" sketch:type="MSLayerGroup" transform="translate(1942.250000, 129.500000)">
-            <rect id="Body" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="38" width="506.217355" height="216"></rect>
+            <rect id="Body" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="38" width="506.217355" height="188"></rect>
             <rect id="Header" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="506.217355" height="38"></rect>
             <text sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#007B98">
                 <tspan x="15.5759186" y="28">latest_videos</tspan>
             </text>
             <text id="video_bucket--------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
                 <tspan x="15.5759186" y="70">video_bucket               INT</tspan>
-                <tspan x="15.5759186" y="98">uploaded_timestamp    TIMESTAMP</tspan>
-                <tspan x="15.5759186" y="126">videoid                        UUID</tspan>
-                <tspan x="15.5759186" y="154">title                             TEXT</tspan>
-                <tspan x="15.5759186" y="182">type                            TEXT</tspan>
-                <tspan x="15.5759186" y="210">{tags}                           SET&lt;TEXT&gt;</tspan>
-                <tspan x="15.5759186" y="238">&lt;preview_thumbnails&gt;  MAP&lt;BLOB&gt;</tspan>
+                <tspan x="15.5759186" y="98">videoid                        TIMEUUID</tspan>
+                <tspan x="15.5759186" y="126">title                             TEXT</tspan>
+                <tspan x="15.5759186" y="154">type                            TEXT</tspan>
+                <tspan x="15.5759186" y="182">{tags}                           SET&lt;TEXT&gt;</tspan>
+                <tspan x="15.5759186" y="210">&lt;preview_thumbnails&gt;  MAP&lt;BLOB&gt;</tspan>
             </text>
             <text id="K" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#D1870D">
                 <tspan x="425.222578" y="70">K</tspan>
                 <tspan x="425.222578" y="98">C</tspan>
-                <tspan x="425.222578" y="126">C</tspan>
             </text>
             <text id="Ordering-Copy-6" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="24" font-weight="normal" fill="#D1870E">
                 <tspan x="457.932007" y="71"></tspan>
                 <tspan x="457.932007" y="99">↓</tspan>
-                <tspan x="457.932007" y="127">↑</tspan>
             </text>
         </g>
         <g id="videos" sketch:type="MSLayerGroup" transform="translate(2390.750000, 512.035522)">
@@ -201,26 +195,26 @@
                 <tspan x="13.8077985" y="28">videos</tspan>
             </text>
             <text id="videoid-------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="13.8077985" y="70">videoid                            UUID</tspan>
-                <tspan x="13.8077985" y="98" fill="#D1870E">uploaded_timestamp        TIMESTAMP</tspan>
-                <tspan x="13.8077985" y="126" fill="#D1870E">userid                             UUID</tspan>
-                <tspan x="13.8077985" y="154" fill="#D1870E">title                                TEXT</tspan>
-                <tspan x="320.17108" y="154"></tspan>
-                <tspan x="13.8077985" y="182">description                     TEXT</tspan>
-                <tspan x="13.8077985" y="210">duration                         INT</tspan>
-                <tspan x="302.217955" y="210" fill="#D1870E"></tspan>
-                <tspan x="13.8077985" y="238" fill="#D1870E">type                               TEXT</tspan>
-                <tspan x="317.499205" y="238"></tspan>
-                <tspan x="13.8077985" y="266" fill="#D1870E">url                                 TEXT</tspan>
-                <tspan x="315.600767" y="266"></tspan>
-                <tspan x="13.8077985" y="294">encoding</tspan>
-                <tspan x="13.8077985" y="322" fill="#D1870E">{tags}                             SET&lt;TEXT&gt;</tspan>
-                <tspan x="13.8077985" y="350" fill="#D1870E">&lt;preview_thumbnails&gt;    MAP&lt;BLOB&gt;</tspan>
-                <tspan x="13.8077985" y="378" fill="#D1870E">{genres}                         SET&lt;TEXT&gt;</tspan>
-                <tspan x="383.487486" y="378"></tspan>
-                <tspan x="13.8077985" y="406" fill="#D1870E">release_date                   TIMESTAMP</tspan>
-                <tspan x="13.8077985" y="434" fill="#D1870E">mpaa_rating                   TEXT</tspan>
-                <tspan x="314.956236" y="434"></tspan>
+                <tspan x="13.8077985" y="70">videoid                            TIMEUUID</tspan>
+                <tspan x="376.971861" y="70" fill="#D1870E"></tspan>
+                <tspan x="13.8077985" y="98" fill="#D1870E">userid                             TIMEUUID</tspan>
+                <tspan x="13.8077985" y="126" fill="#D1870E">title                                TEXT</tspan>
+                <tspan x="320.17108" y="126"></tspan>
+                <tspan x="13.8077985" y="154">description                     TEXT</tspan>
+                <tspan x="13.8077985" y="182">duration                         INT</tspan>
+                <tspan x="302.217955" y="182" fill="#D1870E"></tspan>
+                <tspan x="13.8077985" y="210" fill="#D1870E">type                               TEXT</tspan>
+                <tspan x="317.499205" y="210"></tspan>
+                <tspan x="13.8077985" y="238" fill="#D1870E">url                                 TEXT</tspan>
+                <tspan x="315.600767" y="238"></tspan>
+                <tspan x="13.8077985" y="266">encoding</tspan>
+                <tspan x="13.8077985" y="294" fill="#D1870E">{tags}                             SET&lt;TEXT&gt;</tspan>
+                <tspan x="13.8077985" y="322" fill="#D1870E">&lt;preview_thumbnails&gt;    MAP&lt;BLOB&gt;</tspan>
+                <tspan x="13.8077985" y="350" fill="#D1870E">{genres}                         SET&lt;TEXT&gt;</tspan>
+                <tspan x="383.487486" y="350"></tspan>
+                <tspan x="13.8077985" y="378" fill="#D1870E">release_date                   TIMESTAMP</tspan>
+                <tspan x="13.8077985" y="406" fill="#D1870E">mpaa_rating                   TEXT</tspan>
+                <tspan x="314.956236" y="406"></tspan>
             </text>
             <text id="K" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
                 <tspan x="401.145101" y="70" fill="#D1870D">K</tspan>
@@ -245,9 +239,9 @@
                 <tspan x="54.2743859" y="22">video_interactions_by_user _video</tspan>
             </text>
             <text id="userid--------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="20.7124823" y="64">userid                        UUID</tspan>
-                <tspan x="20.7124823" y="92" fill="#D1870E">videoid                      UUID</tspan>
-                <tspan x="295.634357" y="92"></tspan>
+                <tspan x="20.7124823" y="64">userid                        TIMEUUID</tspan>
+                <tspan x="20.7124823" y="92" fill="#D1870E">videoid                      TIMEUUID</tspan>
+                <tspan x="343.868732" y="92"></tspan>
                 <tspan x="20.7124823" y="120">event_timestamp        TIMESTAMP</tspan>
                 <tspan x="20.7124823" y="148">event_type                 TEXT</tspan>
                 <tspan x="20.7124823" y="176">video_timestamp        TIMESTAMP</tspan>
@@ -264,17 +258,16 @@
             </text>
         </g>
         <g id="users" sketch:type="MSLayerGroup" transform="translate(1.250000, 500.000000)">
-            <rect id="Body" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="38" width="426" height="160"></rect>
+            <rect id="Body" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="38" width="426" height="130"></rect>
             <rect id="Header" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="426" height="38"></rect>
             <text id="Video_event" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#007B98">
                 <tspan x="13.1076923" y="28">users</tspan>
             </text>
             <text id="userid--------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="13.1076923" y="70">userid                     UUID              </tspan>
+                <tspan x="13.1076923" y="70">userid                     TIMEUUID              </tspan>
                 <tspan x="13.1076923" y="98">email                      TEXT</tspan>
                 <tspan x="13.1076923" y="126">firstname                TEXT</tspan>
                 <tspan x="13.1076923" y="154">lastname                 TEXT</tspan>
-                <tspan x="13.1076923" y="182" fill="#D1870E">registration_date     TIMESTAMP</tspan>
             </text>
             <text id="KKC" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#D1870D">
                 <tspan x="357.84" y="70">K</tspan>
@@ -289,10 +282,10 @@
             <text id="email---------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
                 <tspan x="10" y="70">email                 TEXT</tspan>
                 <tspan x="10" y="98">password           TEXT</tspan>
-                <tspan x="10" y="126">userid                UUID</tspan>
+                <tspan x="10" y="126">userid                TIMEUUID</tspan>
             </text>
             <text id="KKC" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#D1870D">
-                <tspan x="273" y="70">K</tspan>
+                <tspan x="283.5" y="70">K</tspan>
             </text>
         </g>
         <path d="M911.5,95 L911.5,227" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
