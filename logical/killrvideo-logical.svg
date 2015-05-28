@@ -246,21 +246,21 @@
             </text>
             <text id="userid" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
                 <tspan x="10" y="70">userid</tspan>
-                <tspan x="10" y="98" fill="#D1870E">videoid</tspan>
-                <tspan x="80.2421875" y="98"></tspan>
-                <tspan x="10" y="126">event_timestamp</tspan>
+                <tspan x="10" y="98">event_timestamp</tspan>
+                <tspan x="10" y="126" fill="#D1870E">videoid</tspan>
+                <tspan x="80.2421875" y="126"></tspan>
                 <tspan x="10" y="154">event_type</tspan>
                 <tspan x="10" y="182">video_timestamp</tspan>
             </text>
             <text id="K" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#D1870D">
                 <tspan x="313" y="70">K</tspan>
-                <tspan x="313" y="98">K</tspan>
+                <tspan x="313" y="98">C</tspan>
                 <tspan x="313" y="126">C</tspan>
             </text>
-            <text id="Ordering-Copy-9" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="24" font-weight="normal">
-                <tspan x="334" y="71" fill="#D1870D"></tspan>
-                <tspan x="334" y="99" fill="#D1870D"></tspan>
-                <tspan x="334" y="127" fill="#D1870E">↓</tspan>
+            <text id="Ordering-Copy-9" sketch:type="MSTextLayer" font-family="Lucida Grande" font-size="24" font-weight="normal" fill="#D1870E">
+                <tspan x="334" y="71"></tspan>
+                <tspan x="334" y="99">↓</tspan>
+                <tspan x="334" y="127">↑</tspan>
             </text>
         </g>
         <g id="users" sketch:type="MSLayerGroup" transform="translate(2.000000, 503.000000)">
