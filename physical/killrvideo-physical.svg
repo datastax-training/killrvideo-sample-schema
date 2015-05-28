@@ -39,7 +39,7 @@
                 <tspan x="13.1076923" y="28.375">actors_by_video</tspan>
             </text>
             <text id="videoid-------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="13.1076923" y="73">videoid                      TIMEUUID</tspan>
+                <tspan x="13.1076923" y="73">videoid                      UUID</tspan>
                 <tspan x="13.1076923" y="101">actor_name               TEXT</tspan>
                 <tspan x="13.1076923" y="129">character_name         TEXT</tspan>
             </text>
@@ -88,8 +88,8 @@
             <text id="videoid-------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
                 <tspan x="13.7854196" y="73">videoid                      TIMEUUID</tspan>
                 <tspan x="13.7854196" y="101">posted_timestamp     TIMESTAMP</tspan>
-                <tspan x="13.7854196" y="129" fill="#D1870E">userid                       TIMEUUID     </tspan>
-                <tspan x="366.437763" y="129"></tspan>
+                <tspan x="13.7854196" y="129" fill="#D1870E">userid                       UUID     </tspan>
+                <tspan x="318.203388" y="129"></tspan>
                 <tspan x="13.7854196" y="157" fill="#D1870E">comment                   TEXT</tspan>
                 <tspan x="287.711201" y="157"></tspan>
                 <tspan x="13.7854196" y="185">title                           TEXT</tspan>
@@ -120,7 +120,7 @@
                 <tspan x="14.2384615" y="28">comments_by_user</tspan>
             </text>
             <text id="userid--------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="14.2384615" y="70">userid                        TIMEUUID</tspan>
+                <tspan x="14.2384615" y="70">userid                        UUID</tspan>
                 <tspan x="14.2384615" y="98">posted_timestamp      TIMESTAMP</tspan>
                 <tspan x="14.2384615" y="126" fill="#D1870E">videoid                      TIMEUUID</tspan>
                 <tspan x="337.394712" y="126"></tspan>
@@ -149,7 +149,7 @@
                 <tspan x="15.6" y="28">videos_by_user</tspan>
             </text>
             <text id="userid--------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="15.6" y="70">userid                           TIMEUUID</tspan>
+                <tspan x="15.6" y="70">userid                           UUID</tspan>
                 <tspan x="15.6" y="98">videoid                         TIMEUUID</tspan>
                 <tspan x="15.6" y="126">title                              TEXT</tspan>
                 <tspan x="15.6" y="154">type                             TEXT</tspan>
@@ -166,7 +166,7 @@
             </text>
         </g>
         <g id="latest_videos" sketch:type="MSLayerGroup" transform="translate(1942.250000, 129.500000)">
-            <rect id="Body" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="38" width="506.217355" height="188"></rect>
+            <rect id="Body" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="38" width="506.217355" height="216"></rect>
             <rect id="Header" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="506.217355" height="38"></rect>
             <text sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#007B98">
                 <tspan x="15.5759186" y="28">latest_videos</tspan>
@@ -197,7 +197,7 @@
             <text id="videoid-------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
                 <tspan x="13.8077985" y="70">videoid                            TIMEUUID</tspan>
                 <tspan x="376.971861" y="70" fill="#D1870E"></tspan>
-                <tspan x="13.8077985" y="98" fill="#D1870E">userid                             TIMEUUID</tspan>
+                <tspan x="13.8077985" y="98" fill="#D1870E">userid                             UUID</tspan>
                 <tspan x="13.8077985" y="126" fill="#D1870E">title                                TEXT</tspan>
                 <tspan x="320.17108" y="126"></tspan>
                 <tspan x="13.8077985" y="154">description                     TEXT</tspan>
@@ -239,7 +239,7 @@
                 <tspan x="54.2743859" y="22">video_interactions_by_user _video</tspan>
             </text>
             <text id="userid--------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="20.7124823" y="64">userid                        TIMEUUID</tspan>
+                <tspan x="20.7124823" y="64">userid                        UUID</tspan>
                 <tspan x="20.7124823" y="92" fill="#D1870E">videoid                      TIMEUUID</tspan>
                 <tspan x="343.868732" y="92"></tspan>
                 <tspan x="20.7124823" y="120">event_timestamp        TIMESTAMP</tspan>
@@ -258,16 +258,17 @@
             </text>
         </g>
         <g id="users" sketch:type="MSLayerGroup" transform="translate(1.250000, 500.000000)">
-            <rect id="Body" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="38" width="426" height="130"></rect>
+            <rect id="Body" stroke="#979797" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="38" width="426" height="160"></rect>
             <rect id="Header" stroke="#979797" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="426" height="38"></rect>
             <text id="Video_event" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#007B98">
                 <tspan x="13.1076923" y="28">users</tspan>
             </text>
             <text id="userid--------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
-                <tspan x="13.1076923" y="70">userid                     TIMEUUID              </tspan>
+                <tspan x="13.1076923" y="70">userid                     UUID              </tspan>
                 <tspan x="13.1076923" y="98">email                      TEXT</tspan>
                 <tspan x="13.1076923" y="126">firstname                TEXT</tspan>
                 <tspan x="13.1076923" y="154">lastname                 TEXT</tspan>
+                <tspan x="13.1076923" y="182" fill="#D1870E">registration_date     TIMESTAMP</tspan>
             </text>
             <text id="KKC" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#D1870D">
                 <tspan x="357.84" y="70">K</tspan>
@@ -282,10 +283,10 @@
             <text id="email---------------" fill="#D1870D" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal">
                 <tspan x="10" y="70">email                 TEXT</tspan>
                 <tspan x="10" y="98">password           TEXT</tspan>
-                <tspan x="10" y="126">userid                TIMEUUID</tspan>
+                <tspan x="10" y="126">userid                UUID</tspan>
             </text>
             <text id="KKC" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="24" font-weight="normal" fill="#D1870D">
-                <tspan x="283.5" y="70">K</tspan>
+                <tspan x="273" y="70">K</tspan>
             </text>
         </g>
         <path d="M911.5,95 L911.5,227" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
@@ -312,15 +313,15 @@
         <path d="M2446,1051.53552 L1324.5,1051.53552" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path d="M1072.75,299.5 L1941.5,299.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path id="Line-decoration-1" d="M1941.5,299.5 L1930.7,296.5 L1930.7,302.5 L1941.5,299.5 Z" stroke="#979797" stroke-linecap="square"></path>
-        <path d="M547.5,424.535522 L547.5,502" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-        <path id="Line-decoration-1" d="M547.5,502 L550.5,491.2 L544.5,491.2 L547.5,502 Z" stroke="#979797" stroke-linecap="square"></path>
-        <path d="M1258,423.5 L547.5,423.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M204.5,422.5 L204.5,499" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path id="Line-decoration-1" d="M204.5,499 L207.5,488.2 L201.5,488.2 L204.5,499 Z" stroke="#979797" stroke-linecap="square"></path>
+        <path d="M1258,423.5 L204.5,423.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path d="M2846.25,939.035522 L2944,939.035522" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path id="Line-decoration-1" d="M2944,939.035522 L2933.2,936.035522 L2933.2,942.035522 L2944,939.035522 Z" stroke="#979797" stroke-linecap="square"></path>
         <path d="M2842,656.5 L2940.25,656.5" id="Line-Copy-2" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path id="Line-Copy-2-decoration-1" d="M2940.25,656.5 L2929.45,653.5 L2929.45,659.5 L2940.25,656.5 Z" stroke="#979797" stroke-linecap="square"></path>
         <text id="Q3" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
-            <tspan x="485.25" y="492.5">Q3</tspan>
+            <tspan x="142.25" y="489.5">Q3</tspan>
         </text>
         <text id="Q1" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="normal" fill="#007B98">
             <tspan x="850.5" y="215.594727">Q1</tspan>
@@ -373,8 +374,8 @@
         <path id="Line-decoration-1" d="M910,501.5 L913,490.7 L907,490.7 L910,501.5 Z" stroke="#979797" stroke-linecap="square"></path>
         <path d="M1262.5,791.5 L1139.5,949.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path id="Line-decoration-1" d="M1139.5,949.5 L1148.50154,942.82076 L1143.76704,939.135042 L1139.5,949.5 Z" stroke="#979797" stroke-linecap="square"></path>
-        <path d="M2909.25,531.035522 L2909.25,411.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-        <path d="M2880.25,410.535522 L2110,410.535522" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M3154.25,531.035522 L3154.25,411.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path d="M3154.5,410.535522 L2110,410.535522" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <g id="Access-Patterns" sketch:type="MSLayerGroup" transform="translate(385.000000, 1176.000000)">
             <rect id="Rectangle-29" stroke="#000000" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="0.216542854" y="0" width="1743.78346" height="567"></rect>
             <text id="ACCESS-PATTERNS" sketch:type="MSTextLayer" font-family="Gill Sans" font-size="36" font-weight="bold" fill="#000000">
