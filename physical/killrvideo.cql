@@ -12,14 +12,13 @@ CREATE TABLE users_by_email (
 
 CREATE TABLE latest_videos (
    video_bucket INT,
-   uploaded_timestamp TIMESTAMP,
-   videoid UUID,
+   videoid TIMEUUID,
    title TEXT,
    type TEXT,
    tags SET<TEXT>,
    preview_thumbnails MAP<TEXT,BLOB>,
-   PRIMARY KEY (video_bucket, uploaded_timestamp, videoid))
-WITH CLUSTERING ORDER BY (uploaded_timestamp DESC, videoid ASC);
+   PRIMARY KEY (video_bucket, videoid))
+WITH CLUSTERING ORDER BY (videoid DESC);
 
 CREATE TABLE users (
    userid UUID PRIMARY KEY,
@@ -31,19 +30,18 @@ CREATE TABLE users (
 
 CREATE TABLE videos_by_user (
    userid UUID,
-   uploaded_timestamp TIMESTAMP,
-   videoid UUID,
+   videoid TIMEUUID,
    title TEXT,
    type TEXT,
    tags SET<TEXT>,
    preview_thumbnails MAP<TEXT,BLOB>,
-   PRIMARY KEY (userid, uploaded_timestamp, videoid))
-WITH CLUSTERING ORDER BY (uploaded_timestamp DESC, videoid ASC);
+   PRIMARY KEY (userid, videoid))
+WITH CLUSTERING ORDER BY (videoid DESC);
 
 CREATE TABLE comments_by_user (
    userid UUID,
    posted_timestamp TIMESTAMP,
-   videoid UUID,
+   videoid TIMEUUID,
    comment TEXT,
    title TEXT,
    type TEXT,
@@ -53,7 +51,7 @@ CREATE TABLE comments_by_user (
 WITH CLUSTERING ORDER BY (posted_timestamp DESC, videoid ASC);
 
 CREATE TABLE comments_by_video (
-   videoid UUID,
+   videoid TIMEUUID,
    posted_timestamp TIMESTAMP,
    userid UUID,
    comment TEXT,
@@ -65,7 +63,7 @@ CREATE TABLE comments_by_video (
 WITH CLUSTERING ORDER BY (posted_timestamp DESC, userid ASC);
 
 CREATE TABLE ratings_by_video (
-   videoid UUID PRIMARY KEY,
+   videoid TIMEUUID PRIMARY KEY,
    num_ratings COUNTER,
    sum_ratings COUNTER
 );
@@ -78,8 +76,7 @@ CREATE TYPE encoding_type (
 );
 
 CREATE TABLE videos (
-   videoid UUID PRIMARY KEY,
-   uploaded_timestamp TIMESTAMP,
+   videoid TIMEUUID PRIMARY KEY,
    userid UUID,
    title TEXT,
    description TEXT,
@@ -95,9 +92,9 @@ CREATE TABLE videos (
 );
 
 CREATE TABLE trailers_by_video (
-   videoid UUID,
+   videoid TIMEUUID,
    title TEXT,
-   trailerid UUID,
+   trailerid TIMEUUID,
    type TEXT,
    tags SET<TEXT>,
    preview_thumbnails MAP<TEXT,BLOB>,
@@ -105,7 +102,7 @@ CREATE TABLE trailers_by_video (
 );
 
 CREATE TABLE actors_by_video (
-   videoid UUID,
+   videoid TIMEUUID,
    actor_name TEXT,
    character_name TEXT,
    PRIMARY KEY (videoid, actor_name)
@@ -113,7 +110,7 @@ CREATE TABLE actors_by_video (
 
 CREATE TABLE video_interactions_by_user_video (
    userid UUID,
-   videoid UUID,
+   videoid TIMEUUID,
    event_timestamp TIMESTAMP,
    event_type TEXT,
    video_timestamp TIMESTAMP,
