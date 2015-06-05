@@ -5,8 +5,8 @@ CREATE KEYSPACE killrvideo WITH replication = {'class': 'SimpleStrategy', 'repli
 USE killrvideo;
 
 CREATE TABLE users_by_email (
-   email TEXT PRIMARY KEY, 
-   passwords TEXT,
+   email TEXT PRIMARY KEY,
+   password TEXT,
    userid UUID
 );
 
@@ -16,7 +16,7 @@ CREATE TABLE latest_videos (
    title TEXT,
    type TEXT,
    tags SET<TEXT>,
-   preview_thumbnails MAP<TEXT,BLOB>,
+   preview_thumbnails MAP<INT,BLOB>,
    PRIMARY KEY (video_bucket, videoid))
 WITH CLUSTERING ORDER BY (videoid DESC);
 
@@ -34,7 +34,7 @@ CREATE TABLE videos_by_user (
    title TEXT,
    type TEXT,
    tags SET<TEXT>,
-   preview_thumbnails MAP<TEXT,BLOB>,
+   preview_thumbnails MAP<INT,BLOB>,
    PRIMARY KEY (userid, videoid))
 WITH CLUSTERING ORDER BY (videoid DESC);
 
@@ -46,7 +46,7 @@ CREATE TABLE comments_by_user (
    title TEXT,
    type TEXT,
    tags SET<TEXT>,
-   preview_thumbnails MAP<TEXT,BLOB>,
+   preview_thumbnails MAP<INT,BLOB>,
    PRIMARY KEY (userid, posted_timestamp, videoid))
 WITH CLUSTERING ORDER BY (posted_timestamp DESC, videoid ASC);
 
@@ -58,7 +58,7 @@ CREATE TABLE comments_by_video (
    title TEXT STATIC,
    type TEXT STATIC,
    tags SET<TEXT> STATIC,
-   preview_thumbnails MAP<TEXT,BLOB> STATIC,
+   preview_thumbnails MAP<INT,BLOB> STATIC,
    PRIMARY KEY (videoid, posted_timestamp, userid))
 WITH CLUSTERING ORDER BY (posted_timestamp DESC, userid ASC);
 
@@ -85,7 +85,7 @@ CREATE TABLE videos (
    url TEXT,
    encoding FROZEN<encoding_type>,
    tags SET<TEXT>,
-   preview_thumbnails MAP<TEXT,BLOB>,
+   preview_thumbnails MAP<INT,BLOB>,
    genres SET<TEXT>,
    release_date TIMESTAMP,
    mpaa_rating TEXT
@@ -97,7 +97,7 @@ CREATE TABLE trailers_by_video (
    trailerid TIMEUUID,
    type TEXT,
    tags SET<TEXT>,
-   preview_thumbnails MAP<TEXT,BLOB>,
+   preview_thumbnails MAP<INT,BLOB>,
    PRIMARY KEY (videoid, title, trailerid)
 );
 
@@ -116,5 +116,3 @@ CREATE TABLE video_interactions_by_user_video (
    video_timestamp TIMESTAMP,
    PRIMARY KEY ((userid, videoid), event_timestamp))
 WITH CLUSTERING ORDER BY (event_timestamp DESC);
-
-

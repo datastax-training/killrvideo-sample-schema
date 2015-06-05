@@ -103,11 +103,11 @@
         <path id="Line-decoration-1" d="M1377.5,525.5 L1380.5,514.7 L1374.5,514.7 L1377.5,525.5 Z" stroke="#979797" stroke-linecap="square"></path>
         <path d="M2114.5,414.5 L2114.5,525.5" id="Line-Copy-2" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path id="Line-Copy-2-decoration-1" d="M2114.5,525.5 L2117.5,514.7 L2111.5,514.7 L2114.5,525.5 Z" stroke="#979797" stroke-linecap="square"></path>
+        <path d="M2451.5,640 L2451.5,809.5" id="Line-Copy-3" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path id="Line-Copy-3-decoration-1" d="M2451.5,809.5 L2454.5,798.7 L2448.5,798.7 L2451.5,809.5 Z" stroke="#979797" stroke-linecap="square"></path>
         <path d="M1377.5,413.5 L2114.5,413.5" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path d="M2452.5,562 L2452.5,391" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path id="Line-decoration-1" d="M2452.5,391 L2449.5,401.8 L2455.5,401.8 L2452.5,391 Z" stroke="#979797" stroke-linecap="square"></path>
-        <path d="M2451.5,809 L2451.5,640" id="Line-Copy-3" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(2451.500000, 724.500000) scale(1, -1) translate(-2451.500000, -724.500000) "></path>
-        <path id="Line-Copy-3-decoration-1" d="M2451.5,640 L2448.5,650.8 L2454.5,650.8 L2451.5,640 Z" stroke="#979797" stroke-linecap="square"></path>
         <path d="M2452.5,562 L2275.5,562" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path d="M2451.5,640 L2275.5,640" id="Line-Copy-4" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path d="M165.5,407.5 L165,526" id="Line" stroke="#979797" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
