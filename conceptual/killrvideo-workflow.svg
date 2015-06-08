@@ -156,17 +156,36 @@
         <g id="Access-Patterns" sketch:type="MSLayerGroup" transform="translate(2.000000, 971.000000)">
             <rect id="Rectangle-29" stroke="#000000" fill="#FFFFFF" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="0.232932565" y="0" width="1927.76707" height="594.694"></rect>
             <text id="Q1:-Find-a-user-with" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="36" font-weight="normal" fill="#000000">
-                <tspan x="20" y="106">Q1: Find a user with a specified email</tspan>
-                <tspan x="20" y="149">Q2: Find most recently uploaded videos</tspan>
-                <tspan x="20" y="192">Q3: Find a user with a specified user id</tspan>
-                <tspan x="20" y="235">Q4: Find videos uploaded by a user with a known id (show most recently uploaded videos first)</tspan>
-                <tspan x="20" y="278">Q5: Find comments posted by a user with a known id (show most recently posted comments first)</tspan>
-                <tspan x="20" y="321">Q6: Find comments posted for a video with a known id (show most recent comments first)</tspan>
-                <tspan x="20" y="364">Q7: Find an average rating with a known id (show most recent comments first)</tspan>
-                <tspan x="20" y="407">Q8: Find a video with a specified video id</tspan>
-                <tspan x="20" y="450">Q9: Find trailers for a video with a known id (show title in ascending order)</tspan>
-                <tspan x="20" y="493">Q10: Find video interactions for a user with a known id and specified video id (show most recent interactions first)</tspan>
-                <tspan x="20" y="536">Q11: Find actors for a video with a known id (show actor names in ascending order)</tspan>
+                <tspan x="20" y="106">Q1: Find a user with a </tspan>
+                <tspan x="382.088" y="106" font-weight="bold">specified email</tspan>
+                <tspan x="20" y="150">Q2: Find most recently uploaded videos</tspan>
+                <tspan x="20" y="193">Q3: Find a </tspan>
+                <tspan x="196.76" y="193" font-weight="bold">user with a specified id</tspan>
+                <tspan x="593.3" y="193"></tspan>
+                <tspan x="20" y="237">Q4: Find videos uploaded by a </tspan>
+                <tspan x="522.848" y="237" font-weight="bold">user with a known id</tspan>
+                <tspan x="877.448" y="237"> (show most recently uploaded videos first)</tspan>
+                <tspan x="20" y="281">Q5: Find comments posted by a </tspan>
+                <tspan x="548.264" y="281" font-weight="bold">user with a known id</tspan>
+                <tspan x="902.864" y="281"> (show most recently posted comments first)</tspan>
+                <tspan x="20" y="325">Q6: Find comments posted for a </tspan>
+                <tspan x="552.224" y="325" font-weight="bold">video with a known id</tspan>
+                <tspan x="924.14" y="325"> (show most recent comments first)</tspan>
+                <tspan x="20" y="369">Q7: Find an average rating with a </tspan>
+                <tspan x="562.088" y="369" font-weight="bold">known video id</tspan>
+                <tspan x="820.712" y="369"> (show most recent comments first)</tspan>
+                <tspan x="20" y="413">Q8: Find a video with a </tspan>
+                <tspan x="400.088" y="413" font-weight="bold">specified video id</tspan>
+                <tspan x="700.652" y="413"></tspan>
+                <tspan x="20" y="457">Q9: Find trailers for a </tspan>
+                <tspan x="368.048" y="457" font-weight="bold">video with a known id</tspan>
+                <tspan x="739.964" y="457"> (show title in ascending order)</tspan>
+                <tspan x="20" y="501">Q10: Find video interactions for a </tspan>
+                <tspan x="564.788" y="501" font-weight="bold">user with a known id and specified video id</tspan>
+                <tspan x="1303.976" y="501"> (show most recent interactions first)</tspan>
+                <tspan x="20" y="545">Q11: Find actors for a </tspan>
+                <tspan x="380.756" y="545" font-weight="bold">video with a known id</tspan>
+                <tspan x="752.672" y="545"> (show actor names in ascending order)</tspan>
             </text>
             <text id="ACCESS-PATTERNS" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="32" font-weight="bold" fill="#435B61">
                 <tspan x="19" y="49">ACCESS PATTERNS</tspan>
