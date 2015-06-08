@@ -5,114 +5,117 @@ CREATE KEYSPACE killrvideo WITH replication = {'class': 'SimpleStrategy', 'repli
 USE killrvideo;
 
 CREATE TABLE users_by_email (
-   email TEXT PRIMARY KEY,
+   email TEXT,
    password TEXT,
-   userid UUID
+   user_id UUID,
+   PRIMARY KEY ((email))
 );
 
 CREATE TABLE latest_videos (
    video_bucket INT,
-   videoid TIMEUUID,
+   video_id TIMEUUID,
    title TEXT,
    type TEXT,
    tags SET<TEXT>,
    preview_thumbnails MAP<INT,BLOB>,
-   PRIMARY KEY (video_bucket, videoid))
-WITH CLUSTERING ORDER BY (videoid DESC);
+   PRIMARY KEY ((video_bucket), video_id))
+WITH CLUSTERING ORDER BY (video_id DESC);
 
 CREATE TABLE users (
-   userid UUID PRIMARY KEY,
+   user_id UUID,
    email TEXT,
-   firstname TEXT,
-   lastname TEXT,
-   registration_date TIMESTAMP
+   first_name TEXT,
+   last_name TEXT,
+   registration_date TIMESTAMP,
+   PRIMARY KEY((user_id))
 );
 
 CREATE TABLE videos_by_user (
-   userid UUID,
-   videoid TIMEUUID,
+   user_id UUID,
+   video_id TIMEUUID,
    title TEXT,
    type TEXT,
    tags SET<TEXT>,
    preview_thumbnails MAP<INT,BLOB>,
-   PRIMARY KEY (userid, videoid))
-WITH CLUSTERING ORDER BY (videoid DESC);
+   PRIMARY KEY ((user_id), video_id))
+WITH CLUSTERING ORDER BY (video_id DESC);
 
 CREATE TABLE comments_by_user (
-   userid UUID,
+   user_id UUID,
    posted_timestamp TIMESTAMP,
-   videoid TIMEUUID,
+   video_id TIMEUUID,
    comment TEXT,
    title TEXT,
    type TEXT,
    tags SET<TEXT>,
    preview_thumbnails MAP<INT,BLOB>,
-   PRIMARY KEY (userid, posted_timestamp, videoid))
-WITH CLUSTERING ORDER BY (posted_timestamp DESC, videoid ASC);
+   PRIMARY KEY ((user_id), posted_timestamp, video_id))
+WITH CLUSTERING ORDER BY (posted_timestamp DESC, video_id ASC);
 
 CREATE TABLE comments_by_video (
-   videoid TIMEUUID,
+   video_id TIMEUUID,
    posted_timestamp TIMESTAMP,
-   userid UUID,
+   user_id UUID,
    comment TEXT,
    title TEXT STATIC,
    type TEXT STATIC,
    tags SET<TEXT> STATIC,
    preview_thumbnails MAP<INT,BLOB> STATIC,
-   PRIMARY KEY (videoid, posted_timestamp, userid))
-WITH CLUSTERING ORDER BY (posted_timestamp DESC, userid ASC);
+   PRIMARY KEY ((video_id), posted_timestamp, user_id))
+WITH CLUSTERING ORDER BY (posted_timestamp DESC, user_id ASC);
 
 CREATE TABLE ratings_by_video (
-   videoid TIMEUUID PRIMARY KEY,
+   video_id TIMEUUID,
    num_ratings COUNTER,
-   sum_ratings COUNTER
+   sum_ratings COUNTER,
+   PRIMARY KEY ((video_id))
 );
 
 CREATE TYPE encoding_type (
-   height int,
-   width int,
    encoding TEXT,
+   height INT,
+   width INT,
    bitrates SET<INT>
 );
 
 CREATE TABLE videos (
-   videoid TIMEUUID PRIMARY KEY,
-   userid UUID,
+   video_id TIMEUUID,
+   user_id UUID,
    title TEXT,
    description TEXT,
-   duration INT,
    type TEXT,
    url TEXT,
+   release_date TIMESTAMP,
+   mpaa_rating TEXT,
    encoding FROZEN<encoding_type>,
    tags SET<TEXT>,
    preview_thumbnails MAP<INT,BLOB>,
    genres SET<TEXT>,
-   release_date TIMESTAMP,
-   mpaa_rating TEXT
+   PRIMARY KEY ((video_id))
 );
 
 CREATE TABLE trailers_by_video (
-   videoid TIMEUUID,
+   video_id TIMEUUID,
    title TEXT,
-   trailerid TIMEUUID,
+   trailer_id TIMEUUID,
    type TEXT,
    tags SET<TEXT>,
    preview_thumbnails MAP<INT,BLOB>,
-   PRIMARY KEY (videoid, title, trailerid)
+   PRIMARY KEY ((video_id), title, trailer_id)
 );
 
 CREATE TABLE actors_by_video (
-   videoid TIMEUUID,
+   video_id TIMEUUID,
    actor_name TEXT,
    character_name TEXT,
-   PRIMARY KEY (videoid, actor_name)
+   PRIMARY KEY ((video_id), actor_name)
 );
 
 CREATE TABLE video_interactions_by_user_video (
-   userid UUID,
-   videoid TIMEUUID,
+   user_id UUID,
+   video_id TIMEUUID,
    event_timestamp TIMESTAMP,
    event_type TEXT,
    video_timestamp TIMESTAMP,
-   PRIMARY KEY ((userid, videoid), event_timestamp))
+   PRIMARY KEY ((user_id, video_id), event_timestamp))
 WITH CLUSTERING ORDER BY (event_timestamp DESC);
