@@ -87,7 +87,7 @@
         <rect id="Rectangle" stroke="#B6BBB7" stroke-width="3" fill="#F0F0F0" sketch:type="MSShapeGroup" x="2" y="537" width="325" height="150" rx="17"></rect>
         <text id="Show-basic-informati" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="28" font-weight="normal" sketch:alignment="middle" fill="#B94850">
             <tspan x="16.734" y="609">Show basic information  </tspan>
-            <tspan x="97.094" y="643">about user</tspan>
+            <tspan x="85.684" y="643">about a user</tspan>
         </text>
         <rect id="Rectangle" stroke="#B6BBB7" stroke-width="3" fill="#F0F0F0" sketch:type="MSShapeGroup" x="371" y="113" width="325" height="150" rx="17"></rect>
         <text id="User-logs-into-site" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="30" font-weight="normal" sketch:alignment="middle" fill="#B94850">
@@ -171,15 +171,17 @@
                 <tspan x="20" y="325">Q6: Find comments posted for a </tspan>
                 <tspan x="552.224" y="325" font-weight="bold">video with a known id</tspan>
                 <tspan x="924.14" y="325"> (show most recent comments first)</tspan>
-                <tspan x="20" y="369">Q7: Find an average rating with a </tspan>
-                <tspan x="562.088" y="369" font-weight="bold">known video id</tspan>
-                <tspan x="820.712" y="369"> (show most recent comments first)</tspan>
+                <tspan x="20" y="369">Q7: Find </tspan>
+                <tspan x="167.42" y="369" font-weight="bold">an average rating</tspan>
+                <tspan x="466.796" y="369"> with a </tspan>
+                <tspan x="582.788" y="369" font-weight="bold">known video id</tspan>
+                <tspan x="841.412" y="369"> (show most recent comments first)</tspan>
                 <tspan x="20" y="413">Q8: Find a video with a </tspan>
                 <tspan x="400.088" y="413" font-weight="bold">specified video id</tspan>
                 <tspan x="700.652" y="413"></tspan>
                 <tspan x="20" y="457">Q9: Find trailers for a </tspan>
                 <tspan x="368.048" y="457" font-weight="bold">video with a known id</tspan>
-                <tspan x="739.964" y="457"> (show title in ascending order)</tspan>
+                <tspan x="739.964" y="457"> (show trailer titles in ascending order)</tspan>
                 <tspan x="20" y="501">Q10: Find video interactions for a </tspan>
                 <tspan x="564.788" y="501" font-weight="bold">user with a known id and specified video id</tspan>
                 <tspan x="1303.976" y="501"> (show most recent interactions first)</tspan>

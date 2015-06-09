@@ -1,8 +1,8 @@
-DROP KEYSPACE IF EXISTS killrvideo;
+DROP KEYSPACE IF EXISTS killr_video;
 
-CREATE KEYSPACE killrvideo WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+CREATE KEYSPACE killr_video WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
 
-USE killrvideo;
+USE killr_video;
 
 CREATE TABLE users_by_email (
    email TEXT,
@@ -108,7 +108,7 @@ CREATE TABLE actors_by_video (
    video_id TIMEUUID,
    actor_name TEXT,
    character_name TEXT,
-   PRIMARY KEY ((video_id), actor_name)
+   PRIMARY KEY ((video_id), actor_name, character_name)
 );
 
 CREATE TABLE video_interactions_by_user_video (
