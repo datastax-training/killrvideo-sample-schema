@@ -86,6 +86,7 @@ CREATE TABLE videos (
    type TEXT,
    url TEXT,
    release_date TIMESTAMP,
+   avg_rating FLOAT,
    mpaa_rating TEXT,
    encoding FROZEN<encoding_type>,
    tags SET<TEXT>,
