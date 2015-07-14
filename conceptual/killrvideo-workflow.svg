@@ -21,8 +21,6 @@
         <path id="Line-Copy-10-decoration-1" d="M744.5,787.5 L755.176007,784.084904 L751.885125,779.067923 L744.5,787.5 Z" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square"></path>
         <path d="M2453.5,572 L2453.5,407.5" id="Line" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path id="Line-decoration-1" d="M2453.5,407.5 L2450.5,418.3 L2456.5,418.3 L2453.5,407.5 Z" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square"></path>
-        <path d="M2452.5,811.5 L2452.5,649" id="Line-Copy-3" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(2452.500000, 730.500000) scale(1, -1) translate(-2452.500000, -730.500000) "></path>
-        <path id="Line-Copy-3-decoration-1" d="M2452.5,649 L2449.5,659.8 L2455.5,659.8 L2452.5,649 Z" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square"></path>
         <path d="M2286.5,322.5 L1747.49716,322.5" id="Line" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path d="M2452.5,571.5 L2275.5,571.5" id="Line" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         <path d="M2451.5,649.5 L2275.5,649.5" id="Line-Copy-4" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
@@ -114,6 +112,9 @@
         <text id="Q2" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="36" font-weight="420" fill="#007B98">
             <tspan x="1673" y="95">Q2</tspan>
         </text>
+        <text id="Q2-Copy" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="36" font-weight="420" fill="#007B98">
+            <tspan x="1519" y="165">Q2</tspan>
+        </text>
         <text id="Q3" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="36" font-weight="420" fill="#007B98">
             <tspan x="102" y="520">Q3</tspan>
         </text>
@@ -195,5 +196,7 @@
                 <tspan x="19" y="49">ACCESS PATTERNS</tspan>
             </text>
         </g>
+        <path d="M2453.5,649.5 L2453.5,810.511765" id="Line" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+        <path id="Line-decoration-1" d="M2453.5,810.511765 L2456.5,799.711765 L2450.5,799.711765 L2453.5,810.511765 Z" stroke="#5D5D5D" stroke-width="5" stroke-linecap="square"></path>
     </g>
 </svg>
