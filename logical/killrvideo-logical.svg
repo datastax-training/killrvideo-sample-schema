@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="2803px" height="1810px" viewBox="0 0 2803 1810" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
     <title>killrvideo-logical</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -399,7 +399,7 @@
                 <tspan x="167.42" y="369" font-weight="bold">an average rating</tspan>
                 <tspan x="466.796" y="369"> with a </tspan>
                 <tspan x="582.788" y="369" font-weight="bold">known video id</tspan>
-                <tspan x="841.412" y="369"> (show most recent comments first)</tspan>
+                <tspan x="841.412" y="369"></tspan>
                 <tspan x="20" y="413">Q8: Find a video with a </tspan>
                 <tspan x="400.088" y="413" font-weight="bold">specified video id</tspan>
                 <tspan x="700.652" y="413"></tspan>
